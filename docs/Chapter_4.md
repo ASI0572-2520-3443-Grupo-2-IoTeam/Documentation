@@ -61,8 +61,7 @@ Para la elaboración del EventStorming, el equipo se organizó para encontrar un
   **Paso 9: Bounded Context** Finalmente, identificamos los contextos delimitados o bounded contexts, que son
  áreas de responsabilidad distintas dentro del sistema.
 
- [![Event-Storming-plantcare-30.jpg](https://i.postimg.cc/3JFNf9q9/Event-Storming-plantcare-30.jpg)](https://postimg.cc/BXtJX541)
-
+ [![Event-Storming-plantcare-31.jpg](https://i.postimg.cc/FRxQH5Zh/Event-Storming-plantcare-31.jpg)](https://postimg.cc/5YjrsrTr)
 #### 4.1.1.1 Candidate Context Discovery.
 
  A partir del EventStorming realizado en Miro, nuestro equipo llevó a cabo una sesión de Candidate Context
@@ -88,11 +87,11 @@ Detección de agrupaciones naturales: Identificamos patrones y agrupaciones natu
 
 Comenzamos identificando las áreas core del dominio, es decir, aquellas con mayor impacto en la propuesta de valor del sistema.
 
-- Core: Plant Management, Device Management (IoT), Data Telemetry, Analysis & Reporting.
+- Core: Plant Management, Device Management (IoT), Data Telemetry, Analytics.
 
-- Supporting: Auth & Identity, Billing & Subscription, Notification & Rules Engine.
+- Supporting: Auth & Identity,  Subscription, Notification .
 
-- eneric: Platform, Community/Social.
+- generic: , Community.
 
 **2.- Start-with-Simple**
 
@@ -107,7 +106,7 @@ Identificamos eventos clave que marcaban transiciones entre subsistemas. Ejemplo
 
 - “Rule triggered” → frontera entre Notification Engine y Plant Management.
 
-[![Event-Storming-plantcare-8.jpg](https://i.postimg.cc/nz8sWPDc/Event-Storming-plantcare-8.jpg)](https://postimg.cc/Z9cKBjH1)
+[![Event-Storming-plantcare-31.jpg](https://i.postimg.cc/FRxQH5Zh/Event-Storming-plantcare-31.jpg)](https://postimg.cc/5YjrsrTr)
 
 
 __Primer agrupamiento__ 
@@ -125,31 +124,28 @@ Se aislaron los contextos centrales de negocio: Plant Management y Data Telemetr
 
 __Tercer agrupamiento__ 
 
-Se añadieron los contextos complementarios: Notification & Rules Engine y Community/Social, encargados de interacción y comunicación entre usuarios y el sistema.
+Se añadieron los contextos complementarios: Notification y Community, encargados de interacción y comunicación entre usuarios y el sistema.
 
-[![Event-Storming-plantcare-11.jpg](https://i.postimg.cc/gJX0Gq3t/Event-Storming-plantcare-11.jpg)](https://postimg.cc/TLxx9b7n)
-
+[![Event-Storming-plantcare-32.jpg](https://i.postimg.cc/XY5mv6jP/Event-Storming-plantcare-32.jpg)](https://postimg.cc/bZz36M20)
 
 Consolidación final
-El resultado fue un mapa de 9 bounded contexts:
+El resultado fue un mapa de 8 bounded contexts:
 
 - Auth & Identity
 
 - Device Management (IoT)
 
-- Platform
-
-- Billing & Subscription
+- Subscription
 
 - Plant Management
 
 - Data Telemetry
 
-- Analysis & Reporting
+- Analytics
 
-- Notification & Rules Engine
+- Notification 
 
-- Community / Social
+- Community 
 
 Cada uno de ellos tiene responsabilidades y fronteras bien definidas, reduciendo la complejidad y facilitando la futura arquitectura basada en microservicios o módulos independientes.
 
@@ -159,7 +155,7 @@ Cada uno de ellos tiene responsabilidades y fronteras bien definidas, reduciendo
  cómo se comunican entre sí mediante comandos, eventos y consultas. A continuación, presentamos los flujos
  de mensaje para cuatro escenarios clave de nuestra aplicación:
 
- [![Event-Storming-plantcare-12.jpg](https://i.postimg.cc/hGf7ZXMc/Event-Storming-plantcare-12.jpg)](https://postimg.cc/LqFXn6rb)
+[![Event-Storming-plantcare-33.jpg](https://i.postimg.cc/GpcKnW40/Event-Storming-plantcare-33.jpg)](https://postimg.cc/yDbcFrhn)
 
 
  [![Event-Storming-plantcare-13.jpg](https://i.postimg.cc/wMdyB0zj/Event-Storming-plantcare-13.jpg)](https://postimg.cc/YGbqnNj5)
@@ -185,7 +181,6 @@ Cada uno de ellos tiene responsabilidades y fronteras bien definidas, reduciendo
 
  <img src="https://i.postimg.cc/Hk7f30m1/Event-Storming-plantcare-20.jpg" alt="Event Storming Plantcare" width="480"/>
 
- <img src="https://i.postimg.cc/Pr8cZ98Q/Event-Storming-plantcare-21.jpg" alt="Event Storming Plantcare" width="480"/>
 
 #### 4.1.2. Context Mapping.
 
