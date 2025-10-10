@@ -723,7 +723,7 @@ Esta capa concreta las abstracciones definidas en el dominio a través de reposi
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-[![12-2025-09-20-03-39.png](https://i.postimg.cc/yYv9PF7K/12-2025-09-20-03-39.png)](https://postimg.cc/3d0dr0yf)
+[![1.png](https://i.postimg.cc/wvDX8QDP/1.png)](https://postimg.cc/phXhK8GY)
 
 ## 4.2.2. Bounded Context: Plant Management
 ### 4.2.2.1. Domain Layer. 
@@ -1754,7 +1754,7 @@ Esta capa concreta las abstracciones definidas en el dominio a través de reposi
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
-[![12-2025-09-20-03-59.png](https://i.postimg.cc/2yjts4MY/12-2025-09-20-03-59.png)](https://postimg.cc/tZfDPV9v)
+[![2.png](https://i.postimg.cc/MK6yNRHs/2.png)](https://postimg.cc/0r4MJzpm)
 
 ## 4.2.4. Bounded Context: Data Telemetry
 
