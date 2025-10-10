@@ -254,19 +254,19 @@ Los diagramas de arquitectura de software nos ayudan a plantear el sistema de nu
 
 Este diagrama representa todos los actores y sistemas del ecosistema PlantCare en un solo nivel: usuarios, PlantCare, servicios externos (Google OAuth2, Stripe), y el dispositivo IoT.
 
-![LandscapeDiagram.png](https://i.ibb.co/5WfLgJmb/C4-landscape.png)
+![LandscapeDiagram.png](../assets/C4-landscape.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
-Este diagrama muestra el sistema PlantCare en su entorno, destacando las interacciones con los distintos usuarios (profesionales ocupados, aficionados y desarrolladores), los servicios externos (Google OAuth2 y Stripe) y el dispositivo IoT.
+Este diagrama muestra el sistema PlantCare en su entorno, destacando las interacciones con los distintos usuarios (profesionales ocupados, aficionados y desarrolladores), los servicios externos (Google OAuth2 y Plants API) y el dispositivo IoT.
 
-![ContextDiagram.png](https://i.ibb.co/HfMsWQBy/C4-context.png)
+![ContextDiagram.png](../assets/C4-context.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
 Detalla la arquitectura interna de PlantCare en términos de contenedores: aplicación web, aplicación móvil, backend, bases de datos (web y móvil) y la Edge App para el dispositivo IoT. También muestra cómo se conectan entre sí y con sistemas externos.
 
-![ContainersDiagram.png](https://i.ibb.co/0yyv9qmT/C4-containerrs.png)
+![ContainersDiagram.png](../assets/C4-containers.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
