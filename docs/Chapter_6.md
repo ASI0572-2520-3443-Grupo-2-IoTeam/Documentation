@@ -219,7 +219,9 @@ Para garantizar un despliegue consistente y automatizado, utilizamos pipelines C
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
-En este sprint presentamos el avance en la primera versión de la Landing Page y Frontend Web y Mobile de la aplicación.
+Durante este primer Sprint, el equipo desarrolló la primera versión funcional de la Landing Page y del Frontend Web, permitiendo mostrar la propuesta inicial del producto para validación con el Scrum Master y stakeholders. Asimismo, se estableció la estructura base para la aplicación móvil y la organización de los repositorios en GitHub, fomentando la colaboración del equipo desde las primeras actividades técnicas.
+
+Este Sprint se centró en construir un MVP inicial de visualización, enfocado en probar diseño, navegación y contenido introductorio, con el objetivo de obtener retroalimentación temprana que permita orientar los siguientes incrementos.
 ### 6.2.1.1. Sprint Planning 1.
 En este sprint presentamos el avance en la primera versión de la Landing Page y Frontend Web y Mobile de la aplicación.
 | **Aspecto**                      | **Detalles**                                                                                                           |
@@ -530,7 +532,11 @@ Aún no se implementaron Unit Tests ni Integration Tests completos, ya que se re
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Testing| main |2a58b524ed74891185b089582c45e82c0a06f92a| chore: update README.md||9/10/2025|
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
-En esta sección se evidenciará lo desarrollado para el sprint y se adjuntará pruebas.
+Durante este Sprint se logró completar la primera versión funcional del MVP, centrada en la implementación de la Landing Page y la primer versión navegable de la aplicación web, utilizando datos simulados mediante mockups y una Fake API. Esto permitió validar las principales funcionalidades con el Scrum Master y obtener retroalimentación inicial para las siguientes iteraciones.
+
+Se implementaron componentes clave como acceso y navegación general, registro e inicio de sesión, y funcionalidades iniciales relacionadas con la gestión de plantas. Además, se avanzó en las vistas correspondientes al módulo de análisis histórico y reportes, asegurando que las interfaces y flujos estén estructurados para su posterior integración con datos reales.
+
+A continuación, se presentan las evidencias visuales del avance obtenido y un video demostrativo del resultado del Sprint:
 
 **Landing Page**
 *Evidencia del ejecución:*
@@ -557,7 +563,9 @@ No hay services para este sprint porque se usó fake-api para el desarrollo del 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
-Durante el sprint, se llevaron a cabo las actividades necesarias para el despliegue de los productos. A continuación, se describen las acciones realizadas para cada uno de ellos:
+Durante este Sprint se realizaron las actividades necesarias para habilitar el despliegue de los productos desarrollados. Se configuraron entornos de Deployment independientes para la Landing Page, la Fake API y la Aplicación Web, permitiendo la visualización del MVP y facilitando el proceso de pruebas y validación con el Scrum Master y usuarios iniciales. Además, se integraron repositorios con plataformas de despliegue automatizado, garantizando entregas continuas ante cada actualización del código fuente.
+
+A continuación, se detallan las acciones realizadas para cada componente:
 
 Landing Page:
 Para la Landing Page, se optó por utilizar la plataforma Vercel, debido a su facilidad de uso, integración directa con GitHub y despliegues automáticos mediante GitHub Actions.
@@ -582,7 +590,12 @@ Esta aplicación consume los datos proporcionados por la Fake API previamente de
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
-En esta sección se evidencia la colaboración ella durante el sprint en diferentes repositorios de la organización.Los miembros Rodrigo Chirinos y Alessandro Zevallos trabajaron en la aplicacion movil, por esa razon no tienen tanta participacion en los commmits de la aplicacion web.
+Durante este Sprint se evidenció una activa colaboración entre los miembros del equipo en el desarrollo de los entregables correspondientes. La contribución conjunta se refleja en los repositorios de Landing Page, Aplicación Web, Testing y Documentación, donde se registró actividad constante mediante commits, revisiones, actualizaciones y gestión de issues.
+
+Cada integrante participó en las tareas asignadas según los roles definidos para este Sprint.
+Es importante señalar que los miembros Rodrigo Chirinos y Alessandro Zevallos concentraron su trabajo en el desarrollo de la Aplicación Móvil, razón por la cual su participación en los repositorios asociados al Frontend Web y Landing Page es menor, pero igualmente relevante dentro del alcance global del Sprint.
+
+A continuación se presentan capturas de los analíticos de colaboración en GitHub, que registran la participación del equipo en diferentes repositorios:
 
 
 **Testing**
@@ -606,7 +619,9 @@ En esta sección se evidencia la colaboración ella durante el sprint en diferen
 
 
 ### 6.2.2. Sprint 2
-En este sprint se desarrolló la segunda versión de la landing page y del frontend web. Además, se presentó la primera versión funcional del prototipo IoT, junto con los módulos iniciales del backend y del frontend móvil.
+En el segundo Sprint, el equipo desarrolló la segunda versión de la Landing Page y del Frontend Web, incluyendo mejoras visuales y funcionales derivadas del feedback recibido. Además, se presentó la primera versión operativa del prototipo IoT, junto con los primeros módulos del backend y del frontend móvil, habilitando una integración inicial entre componentes del sistema.
+
+Este Sprint permitió avanzar desde una demostración estática hacia una solución pre-integrada, sentando las bases para implementar funcionalidades completas en los siguientes incrementos.
 #### 6.2.2.1. Sprint Planning 2.
 
 **Aspecto**                      | **Detalles**                                                                                                           |
