@@ -50,7 +50,7 @@ __Segmento 1 — Personas ocupadas (departamentos / oficinas)__
 - Necesitan soluciones “set-and-forget”: configuración simple, - notificaciones fiables, mínima interacción diaria.
 - Sus principales requisitos: tranquilidad, fiabilidad y ahorro de tiempo.
 
-__Segmento 2 — Aficionados amateurs__
+__Segmento 2 — Aficionados__
 
 - Edad aproximada: 30–65 años.
 - Tienen colecciones más grandes (5–20 plantas).
@@ -107,35 +107,222 @@ Para desarrollar la aplicación PlantCare, partimos de varias suposiciones clave
 
 Definimos nuestro éxito a través de los siguientes resultados medibles, que nos indicarán si estamos progresando hacia nuestra visión:
 
-- Activación: ≥40% de los nuevos usuarios conectan al menos 1 maceta dentro de los primeros 7 días desde el registro.
+**1. Adquisición**
 
-- Retención: ≥25% de los usuarios que activaron una maceta regresan a la aplicación y realizan al menos una acción significativa (ej: revisar estado, registrar un riego, consultar el historial) 30 días después de su primer uso.
+Describir si los usuarios nuevos están llegando al producto.
 
-- Monetización: Una tasa de conversión a un plan de suscripción de pago (Premium o compra de maceta extra) de entre el 3% y el 7% en un período de 90 días tras el registro.
+**Métrica principal**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Adquisición de usuarios | Número de descargas de la app o visitas a la página de registro | Por medir | Aumentar adquisición en **X%** |
 
-- Calidad: Mantener el porcentaje de falsas alertas (notificaciones de riego enviadas incorrectamente cuando el sensor indica que la planta no lo necesita) por debajo del <10% del total de alertas generadas, con el objetivo de preservar la confianza del usuario y sostener la retención.
+---
 
-**Users:**
-- **Segmento 1 – Personas ocupadas (departamentos/oficinas):** profesionales con jornada completa, viven en departamentos, suelen tener 1–5 plantas decorativas. Buscan soluciones que requieran poco mantenimiento y ofrezcan tranquilidad.
+**2. Activación**
 
-- **Segmento 2 – Aficionados amateurs:** personas con más plantas (5–20), desean optimizar salud de sus colecciones, les interesa las recomendaciones para diferentes especies.
+Evaluar si los nuevos usuarios completan la primera experiencia de valor.
+
+**Métrica 1 — Conectar primera maceta**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Usuarios que conectan ≥1 maceta en sus primeros 7 días | % de nuevos usuarios con ≥1 maceta conectada en 7 días | Por medir | **≥ 40%** |
+
+**Métrica 2 — Completar onboarding de primera maceta**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Finalización del onboarding (configuración + calibración) | % de usuarios que completan el onboarding en su primera sesión | Por medir | Establecer tras primeras cohortes |
+
+---
+
+**3. Retención**
+
+Determinar si los usuarios encuentran valor continuo en el sistema.
+
+**Métrica 1 — Retención a 30 días**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Usuarios que revisan el estado o realizan acciones significativas | % de usuarios activados con ≥1 acción significativa a los 30 días | Por medir | **≥ 25%** |
+
+**Métrica 2 — Acciones registradas tras una notificación**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Registro manual (ej. riego) en respuesta a una notificación | Número de acciones registradas / notificaciones enviadas | Por medir | Mejorar progresivamente (indicador de utilidad) |
+
+**Métrica 3 — Feedback sobre alertas**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Marcado de alertas como útiles o incorrectas | % de alertas con feedback + ratio positivo/negativo | Por medir | Reducir falsas alertas y mejorar calibración |
+
+---
+
+**4. Monetización**
+
+Validar si el producto genera ingresos sostenibles.
+
+**Métrica 1 — Conversión a pago**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Usuarios que actualizan a Premium o compran una maceta extra en 90 días | % conversiones a 90 días | Por medir | **3–7%** |
+
+**Métrica 2 — Expansión dentro de la cuenta**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Añadir macetas adicionales al sistema | Número promedio de macetas por cuenta pagada | Por medir | Incremento sostenido por cohorte |
+
+---
+
+**5. Remisión**
+
+Medir si los usuarios satisfechos invitan a otros.
+
+**Métrica principal**
+| Indicador | Cómo medir | Baseline | Objetivo |
+|----------|------------|-----------|----------|
+| Recomendaciones de usuarios | % de usuarios que usan el mecanismo de referral; % de nuevas inscripciones por referral | Por medir | Incrementar adquisición por recomendaciones |
+"""
+
+
+**Users:**<br> 
+#####  Segmento 1 – Personas ocupadas (departamentos/oficinas): <br> 
+**Diferencias que hacen la diferencia**
+- Vive en espacios urbanos (departamento u oficina) con espacio limitado para plantas.  
+- Tiene 1–5 plantas con valor decorativo (no coleccionista).  
+- Usa smartphone (iOS o Android) y espera experiencias móviles sencillas.  
+- Tiene poco tiempo libre; valora soluciones "set-and-forget".
+
+**Qué está tratando de lograr (metas)**
+- Mantener sus plantas saludables con mínima intervención diaria.  
+- Evitar la ansiedad y la culpa por olvidar regar.  
+- Tener una solución confiable que demande poca configuración.
+
+**Comportamientos actuales**
+- Riega por calendario o cuando nota seco el sustrato.  
+- Recurre a alarmas del teléfono o recordatorios manuales.  
+- Evita apps complejas; abandona herramientas que consumen tiempo.
+
+**Obstáculos / frustraciones**
+- Falta de tiempo y disponibilidad para supervisión frecuente.  
+- Notificaciones poco fiables o demasiado ruidosas (falsas alertas).  
+- Sensores o dispositivos complicados de instalar o calibrar.
+
+**Cómo quiere sentirse**
+- Tranquilo(a), confiado(a) en que las plantas están bien; alivio de la carga emocional.
+
+**Señales observables de éxito**
+- Conecta al menos 1 maceta en los primeros 7 días.  
+- Responde y confirma acciones ante notificaciones relevantes.  
+- Reduce consultas al soporte relacionadas con alertas.  
+- Usa el sistema de feedback in-app para corregir alertas (si existe).
+
+**Criterios de reclutamiento**
+- Edad aproximada: 25–55.  
+- Vive en departamento o trabaja muchas horas fuera de casa.  
+- Posee 1–5 plantas en su hogar/oficina.  
+- Usa smartphone con apps instaladas (iOS/Android).  
+- Dispuesto(a) a probar un dispositivo hardware sencillo y una app.
+
+##### Segmento 2 – Aficionados: <br> 
+**Diferencias que hacen la diferencia**
+- Vive en casa o departamento con mayor espacio para plantas; colección de 5–20 macetas.  
+- Tiene interés por aprender sobre especies y técnicas de cuidado.  
+- Usa smartphone y, potencialmente, una tablet para revisar datos; tolera interfaces ligeramente más ricas.  
+- Dispuesto(a) a invertir algo de tiempo en configurar y optimizar.
+
+**Qué está tratando de lograr (metas)**
+- Maximizar salud y supervivencia de su colección.  
+- Aprender y aplicar recomendaciones por especie.  
+- Comparar y analizar patrones entre macetas para mejorar prácticas.
+
+**Comportamientos actuales**
+- Busca información en foros, redes sociales o comunidad de plantas.  
+- Lleva registros manuales o mentales de riego y observaciones.  
+- Experimenta con distintos sustratos, tiempos y cantidades de riego.
+
+**Obstáculos / frustraciones**
+- Falta de datos históricos y contexto para entender patrones.  
+- Herramientas fragmentadas (foro + app + hardware disociado).  
+- Sensores imprecisos que no aportan confianza en las decisiones.
+
+**Cómo quiere sentirse**
+- Competente, empoderado y orgulloso de su colección; siente progreso y control.
+
+**Señales observables de éxito**
+- Consulta historial / gráficas al menos una vez en 30 días.  
+- Añade y gestiona varias macetas desde la app.  
+- Se suscribe al plan Premium o paga por macetas extras para acceder a análisis.  
+- Ajusta parámetros de riego basados en insights (p. ej., cambios de umbral).
+
+**Criterios de reclutamiento**
+- Edad aproximada: 30–65.  
+- Posee 5–20 plantas y lleva un interés activo en su cuidado.  
+- Dispuesto(a) a probar funcionalidades de datos/historial y a compartir prácticas.  
+- Participa en comunidades de plantas o busca recursos online con regularidad.
+
+
 
 **User Outcomes & Benefits:**
 
-Nuestro producto está diseñado para entregar los siguientes beneficios fundamentales a nuestros usuarios:
+##### Segmento 1 — Personas ocupadas (departamentos / oficinas)
 
-- Tranquilidad y Paz Mental: Eliminar el estrés y la ansiedad de olvidarse de regar las plantas. Los usuarios confían en que PlantCare les avisará a tiempo, permitiéndoles desconectar de la preocupación constante.
+**¿Qué está tratando de lograr?**  
+- Mantener 1–5 plantas decorativas saludables con el mínimo esfuerzo y sin supervisión diaria intensiva.  
+- Evitar perder plantas por olvido o por una mala interpretación de su estado.
 
-- Plantas Más Saludables y Menos Pérdidas: Lograr un mayor porcentaje de supervivencia y un mejor estado de salud general de sus plantas, reduciendo la frustración y el costo asociado a tener que reemplazarlas.
+**¿Cómo quiere sentirse durante y después del proceso?**  
+- Tranquilo(a) y despreocupado(a); con confianza en que las plantas están bien cuidada(s).  
+- Aliviado(a) del sentimiento de culpa o ansiedad por no regar a tiempo.
 
-- Ahorro de Tiempo y Esfuerzo: Liberar al usuario de la carga de tener que revisar manualmente la humedad de la tierra de cada maceta de forma constante, automatizando el monitoreo.
+**¿Cómo nuestro producto le acerca a una meta vital o sueño?**  
+- Permite al usuario dedicar su tiempo a otras tareas sabiendo que la responsabilidad del riego está delegada en un sistema fiable. Esto mejora su calidad de vida (menos estrés doméstico) y la percepción de su hogar como un espacio cuidado.
 
-- Aprendizaje y Mejora Continua: Empoderar a los usuarios con conocimientos sobre las necesidades específicas de cada planta, permitiéndoles convertirse en mejores cuidadores con el tiempo a través de recomendaciones e insights basados en datos.
+**¿Por qué buscaría PlantCare?**  
+- Para dejar de preocuparse por revisar la humedad manualmente y evitar que las plantas se deterioren por descuido.  
+- Porque quiere una solución “set-and-forget” fácil de configurar que ofrezca notificaciones fiables.
+
+**¿Qué comportamiento observable indica que ha conseguido su objetivo?**  
+- Conecta al menos 1 maceta en los primeros 7 días.  
+- Responde a una notificación (p. ej., confirma o registra riego) cuando procede.  
+- Disminución de tickets o consultas al soporte por alertas erróneas.  
+- Usa el feedback in‑app para marcar alertas como útiles/incorrectas en las primeras semanas (señal de compromiso con la mejora del sistema).
+
+**Beneficios clave para este segmento**  
+- Funcional: Menor necesidad de supervisión manual; notificaciones fiables y configurables.  
+- Emocional: Tranquilidad, confianza en el sistema y reducción de ansiedad.
+
+---
+
+##### Segmento 2 — Aficionados
+
+**¿Qué está tratando de lograr?**  
+- Cuidar una colección más amplia (5–20 plantas) con éxito, aprender sobre cada especie y mejorar sus habilidades como cuidador.  
+- Acceder a datos históricos para entender patrones de riego y salud de las plantas.
+
+**¿Cómo quiere sentirse durante y después del proceso?**  
+- Competente y empoderado; sentir que está aprendiendo y mejorando como cuidador.  
+- Satisfecho al ver progresos y resultados (plantas más saludables, menos muertes).
+
+**¿Cómo nuestro producto le acerca a una meta vital o sueño?**  
+- Ofrece datos y recomendaciones (perfiles por especie, historial, alertas con contexto) que transforman la experiencia en aprendizaje activo y ayudan a construir una colección saludable a largo plazo.
+
+**¿Por qué buscaría PlantCare?**  
+- Para obtener insights accionables y poder comparar evolución entre macetas/especies.  
+- Para tener control y capacidad de ajustar parámetros avanzados según cada especie.
+
+**¿Qué comportamiento observable indica que ha conseguido su objetivo?**  
+- Consulta el historial o gráficas al menos una vez en 30 días.  
+- Añade y gestiona varias macetas desde la app (expansión de colección).  
+- Se suscribe o considera el plan Premium para obtener perfiles extendidos y análisis.  
+- Usa datos históricos para cambiar comportamientos de riego/manual adjustments.
+
+**Beneficios clave para este segmento**  
+- Funcional: Perfiles por especie, historial detallado y análisis que facilitan decisiones informadas.  
+- Emocional: Sensación de progreso, orgullo por la colección y reducción de la frustración al ver resultados positivos.
+
 
 **User Assumptions:**
 
 - **¿Quién es el usuario?** Segmento 1: Personas ocupadas (25-55 años) que viven en departamentos u oficinas.
-Segmento 2: Aficionados amateurs (55+ años) con más plantas y interés en optimizar su cuidado.
+Segmento 2: Aficionados (55+ años) con más plantas y interés en optimizar su cuidado.
 
 
 - **¿Dónde encaja la aplicación en su vida?** Encaja como una herramienta de apoyo en su rutina diaria/semanal en el hogar. La consultan para ver el estado de las plantas y confían en sus notificaciones para actuar. Para el Segmento 2, también es una herramienta de aprendizaje.
@@ -178,27 +365,27 @@ Segmento 2: Aficionados amateurs (55+ años) con más plantas y interés en opti
 Para asegurar que nuestra solución esté alineada con las necesidades y expectativas de nuestros usuarios, hemos formulado las siguientes hipótesis utilizando el enfoque Lean UX. Este enfoque nos permitirá validar nuestras suposiciones a través de iteraciones constantes y ajustes basados en el feedback de los usuarios.
 
 
-- **Creemos que** lograremos Activación: ≥40%
+- **Creemos que** lograremos una activación mayor al 40%
 **si** personas ocupadas y aficionados nuevos
 **alcanzan** confianza inmediata sobre el funcionamiento del sistema tras la primera experiencia de uso
 **con una demo interactiva** en la app que simula la lectura de humedad y envía una notificación de prueba.
 
-- **Creemos que lograremos** Retención: ≥25% a 30 días
+- **Creemos que lograremos** la retención mayor al 25% a 30 días
 **si** personas ocupadas (Segmento 1)
 **alcanzan** tranquilidad continua y respuestas rápidas cuando reciben alertas
 **con notificaciones push** calibradas por especie y contexto.
 
-- **Creemos que lograremos** Retención: ≥25% a 30 días
-**si** aficionados amateurs (Segmento 2)
+- **Creemos que lograremos** la retención mayor al 25% a 30 días
+**si** aficionados (Segmento 2)
 **alcanzan** mayor engagement y utilidad por disponer de datos históricos relevantes
 **con historial y gráficas** de humedad/riego accesibles desde la pantalla principal.
 
-- **Creemos que lograremos** Retención: ≥25% a 30 días
+- **Creemos que lograremos** la retención mayor al 25% a 30 días
 **si** ambos segmentos
 **alcanzan mayor** confianza en las alertas gracias a la mejora continua del sistema
 **con un mecanismo simple de feedback** para marcar alertas “útiles / incorrectas”.
 
-- **Creemos que lograremos** Monetización: conversión 3%–7% en 90 días
+- **Creemos que lograremos** la monetización en 90 días
 **si** aficionados con >5 macetas (Segmento 2)
 **alcanzan** una percepción clara de valor agregado por funcionalidades avanzadas
 **con un plan Premium** que incluye perfiles por especie, historial extendido y análisis avanzados.
@@ -213,7 +400,7 @@ Para asegurar que nuestra solución esté alineada con las necesidades y expecta
     <tr>
         <td>
             <strong>Business Problem</strong><br>
-            Muchas personas (profesionales ocupados y aficionados con colecciones domésticas) olvidan o no pueden mantener niveles de humedad óptimos en sus macetas. Esto resulta en plantas deterioradas o muertas, generando frustración, pérdida de dinero y estrés. Se requiere una solución accesible y confiable que automatice el monitoreo, reduzca las falsas alertas y genere confianza en las notificaciones.
+            Nuestro servicio de cuidado doméstico de plantas fue diseñado para entregar tranquilidad a usuarios urbanos que quieren mantener plantas saludables con el mínimo esfuerzo, ofreciendo monitoreo automático, notificaciones y recomendaciones personalizadas por especie. Hemos notado que el producto no cumple con esos objetivos en la actualidad: numerosos usuarios sufren de ansiedad y olvido en relación con el riego, mueren o se deterioran las plantas debido a una detección tardía, hay escasa confianza por alertas falsas e inexactitud de los sensores, así como también fricción en la configuración para colecciones múltiples. Esto está causando que la experiencia sea percibida como poco confiable, lo que genera un mayor peso en soporte y obstáculos para activar y retener a los usuarios.¿De qué manera podríamos optimizar nuestro servicio para que los clientes de las ciudades tengan más éxito al cuidar plantas sanas y confíen en el sistema?
         </td>
         <td>
             <strong>Solutions</strong><br>
@@ -236,23 +423,22 @@ Para asegurar que nuestra solución esté alineada con las necesidades y expecta
         <td>
             <strong>Users</strong><br>
             - <strong>Segmento 1 – Personas ocupadas (departamentos/oficinas):</strong>  profesionales con jornada completa, viven en departamentos, suelen tener 1–5 plantas decorativas. Buscan soluciones que requieran poco mantenimiento y ofrezcan tranquilidad. <br>
-            - <strong>Segmento 2 – Aficionados amateurs:</strong> personas con más plantas (5–20), desean optimizar salud de sus colecciones, les interesa las recomendaciones para diferentes especies.
+            - <strong>Segmento 2 – Aficionados:</strong> personas con más plantas (5–20), desean optimizar salud de sus colecciones, les interesa las recomendaciones para diferentes especies.
         </td>
         <td>
             <strong>Hypotheses</strong><br>
-            - <strong>H1:</strong> Creemos que lograremos <em>Activación ≥40%</em> si los nuevos usuarios alcanzan confianza inmediata con el sistema al experimentar una <em>demo interactiva</em> que simula lectura y notificación de prueba.<br><br> 
-            - <strong>H2:</strong> Creemos que lograremos <em>Retención ≥25% a 30 días</em> si las personas ocupadas experimentan <em>tranquilidad</em> al recibir <em>notificaciones push precisas y calibradas por especie</em>.<br><br> 
-            - <strong>H3:</strong> Creemos que lograremos <em>Retención ≥25%</em> si los aficionados obtienen <em>valor continuo</em> a través de <em>historiales y gráficas de humedad/riego</em> accesibles desde la pantalla principal.<br><br> 
+            - <strong>H1:</strong> Creemos que lograremos <em>una activación mayor al 40%</em> si los nuevos usuarios alcanzan confianza inmediata con el sistema al experimentar una <em>demo interactiva</em> que simula lectura y notificación de prueba.<br><br> 
+            - <strong>H2:</strong> Creemos que lograremos <em>la retención mayor al 25% a 30 días</em> si las personas ocupadas experimentan <em>tranquilidad</em> al recibir <em>notificaciones push precisas y calibradas por especie</em>.<br><br> 
+            - <strong>H3:</strong> Creemos que lograremos <em>la retención mayor al 25% a 30 días</em> si los aficionados obtienen <em>valor continuo</em> a través de <em>historiales y gráficas de humedad/riego</em> accesibles desde la pantalla principal.<br><br> 
             - <strong>H4:</strong> Creemos que lograremos <em>confianza sostenida</em> y retención si ambos segmentos pueden <em>marcar alertas útiles o incorrectas</em> mediante un mecanismo de feedback simple.<br><br> 
-            - <strong>H5:</strong> Creemos que lograremos <em>Monetización 3–7%</em> si los usuarios con >5 macetas perciben <em>valor agregado</em> en un <em>plan Premium</em> con perfiles por especie y análisis avanzados. </td> <td> 
+            - <strong>H5:</strong> Creemos que lograremos <em>la monetización en 90 días</em> si los usuarios con >5 macetas perciben <em>valor agregado</em> en un <em>plan Premium</em> con perfiles por especie y análisis avanzados. </td>
         </td>
         <td>
             <strong>User Outcomes & Benefits</strong><br> 
-            - Tranquilidad y confianza en el cuidado automatizado.<br> 
-            - Plantas más saludables y menos pérdidas.<br> 
-            - Ahorro de tiempo y esfuerzo en el riego.<br> 
-            - Aprendizaje progresivo mediante insights por especie.<br> 
-            - Confianza sostenida gracias a la precisión de alertas y sensores.
+            1. Tranquilidad y paz mental — Eliminar la ansiedad por el riego mediante notificaciones fiables y reducción de incertidumbre.<br> 
+            2. Plantas más saludables y menos pérdidas — Aumentar la supervivencia y el vigor de las plantas; menos reemplazos costosos o decepcionantes.<br> 
+            3. Ahorro de tiempo y esfuerzo — Automatizar la monitorización y reducir tareas manuales repetitivas.<br> 
+            4. Aprendizaje y mejora continua — Proveer información y recomendaciones que permiten a los usuarios mejorar su habilidad de cuidado con el tiempo.<br> 
         </td>
     </tr>
     <tr>
