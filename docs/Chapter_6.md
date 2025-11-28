@@ -235,7 +235,7 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
 | **Sprint Goal & User Stories**   |                                                            |
 | **Sprint Goal** | **Our focus is on** delivering an MVP prototype that allows early validation of the PlantCare solution.**We believe it delivers** initial value to potential users by enabling them to understand the product’s purpose and visualize how it will help them take care of their plants. **This will be confirmed when** the Scrum Master and test users provide feedback based on interacting with the Landing Page and reviewing the first version of the interface with mock data. |
 | **Sprint Velocity**            |  The team planned a velocity of 56 Story Points for this sprint.                                                                        |
-| **Sum of Story Points**          | A total of 13 Story Points were completed, corresponding to the Landing Page user stories that met the Definition of Done. Partially implemented stories were not counted since they were not fully completed. |
+| **Sum of Story Points**          | A total of 18 Story Points were completed, corresponding to the Landing Page user stories that met the Definition of Done. Partially implemented stories were not counted since they were not fully completed. |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators.
 
@@ -336,7 +336,7 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
             <td>Registro de la app y guardado de datos en la db</td>
             <td>02</td>
             <td>Ernesto Casaverde, Alexander Cantoral, Rogrigo Chirinos y Alessandro Zevallos</td>
-            <td>In-Progress</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-006</td>
@@ -509,7 +509,7 @@ Aún no se implementaron Unit Tests ni Integration Tests completos, ya que se re
 
 |User Story|Avance durante el Sprint|	Testing asociado|
 |-|-|-|
-|US- 001 - Acceso a la Landing Page| Funcional |Verificación manual de acceso y carga inicial de la página|
+|US-001 - Acceso a la Landing Page| Funcional |Verificación manual de acceso y carga inicial de la página|
 |US-002 - Secciones informativas diferenciadas|Funcional |Revisión manual de estructura visual y navegación entre secciones|
 |US-003	- Call to Action contextual|Funcional|Validación manual del funcionamiento de CTAs y navegación|
 |US-004	Testimonios segmentados|En proceso|Planificado: Validación de maquetación y contenido dinámico|
@@ -824,6 +824,21 @@ En esta sección se presentan las evidencias de los avances de implementación m
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|4775b2d1c2f9ff60dd6df2ff4103471eaaadebbf|quit id database|-|7/11/2025|
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+En esta sección se presentan las evidencias de la Testing Suite desarrollada durante el Sprint 2. En este se centraron los esfuerzos del equipo en desarrollar una nueva versión de los productos ya presentados en el anterior sprint, terminar us pendientes y agregar un backend service junto con una versión mobile de la aplicación.
+
+|User Story|Avance durante el Sprint|Testing asociado|
+|US-009 Autenticación externa segura|Funcional|Planificado: Validación de sign-in mediante cuenta de google|
+|US-011 Registro simplificado de planta|Funcional| Planificado: |
+|US-012 Edición rápida de información de planta|Funcional||
+|US-013 Eliminicación confirmada de planta|Funcinal||
+|US-015 Visualización de plantas| Funcional||
+|US-021 Análisis histórico de plantas| En Proceso||
+|US-022 Reportes semanales detallados| En Proceso||
+|US-023 Reportes de largo plazo| En Proceso||
+|US-042 Vinculación simplificada de dispostivo| Funcional||
+|US-044 Recepción de datos en tiempo real| Funcional||
+|US-046 Selección flexible de planes| Funcional||
+|US-048 Cancelación flexible| Funcional||
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
