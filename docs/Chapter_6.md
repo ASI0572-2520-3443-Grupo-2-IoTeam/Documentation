@@ -1229,35 +1229,32 @@ Entre las observaciones, sugirió agrupar los indicadores ambientales en un solo
 **Duración de la Entrevista:** 37:49   <br>
 
 **Resumen de la Entrevista:** <br>
-El entrevistado cuenta con varias plantas y se siente cómodo usando aplicaciones móviles y web. Conoce lo básico sobre IoT y enfrenta problemas comunes como olvidar el riego y no saber cuánta agua o luz requieren sus plantas.
+El entrevistado, Derek, tiene 21 años y vive en San Miguel. Cuenta con varias plantas en casa y, aunque disfruta cuidarlas, suele organizar el riego únicamente por memoria, lo que a veces genera problemas por olvido o desconocimiento de cuánta agua o luz requiere cada especie. Tiene conocimientos básicos sobre IoT y se siente cómodo utilizando tecnología en su día a día. Usa una computadora personal, el navegador Brave y un smartphone Samsung S20 FE, lo que demuestra familiaridad con plataformas digitales y disposición a adoptar soluciones tecnológicas siempre que sean claras, accesibles y visualmente agradables.
 
-La Landing Page le pareció clara, profesional e intuitiva. Entendió rápidamente que PlantCare es un sistema IoT para monitoreo de plantas, y destacó que la navegación está bien organizada. Como mejora, sugeriría explicar un poco más el proceso de instalación de los sensores. La página le motivaría a usar la aplicación.
+La Landing Page le pareció clara, profesional e intuitiva. Comprendió rápidamente que PlantCare es un sistema IoT orientado al monitoreo de plantas y destacó que la estructura facilita entender el funcionamiento general. Como sugerencia, indicó la necesidad de detallar mejor el proceso de instalación y conexión de los sensores para evitar dudas iniciales. La página le motivaría a usar la aplicación.
 
-En la aplicación móvil encontró la información de forma rápida y clara. Valoró especialmente el monitoreo en tiempo real y el diseño moderno. Consideró menos útil la sección de recomendaciones, señalando que podría personalizarse más. Sugirió incorporar un historial de riego y crecimiento.
+En la aplicación móvil encontró la información organizada y fácil de localizar. Valoró el monitoreo en tiempo real y el diseño moderno de la interfaz. Consideró menos útil la sección de recomendaciones porque, según él, podría personalizarse más. Propuso añadir un historial de riego y crecimiento para visualizar la evolución de cada planta.
 
-En la aplicación web encontró navegación clara, títulos comprensibles y una distribución adecuada de la información. No identificó confusiones y percibió coherencia visual con la app móvil.
-
-Calificó el sistema con 8.5/10 y afirmó que lo usaría. Destacó como mayor fortaleza el monitoreo y las alertas, y como aspecto menos convincente la poca personalización de las recomendaciones. Propuso integrar sugerencias automáticas basadas en datos y un historial de evolución de las plantas.
+En la aplicación web destacó la navegación clara, los títulos comprensibles y la buena distribución de la información. No encontró elementos confusos y percibió coherencia visual y funcional con la versión móvil. Valoró la manera en que los gráficos y el estado de las plantas se presentan en una vista más amplia.
 
 [![image.png](https://i.postimg.cc/hvNvsdyW/image.png)](https://postimg.cc/ctMd4rGX)
 
 **Entrevistado:** Vasco <br>
 **Sexo:** Masculino <br>
-**Edad:** 21 años<br>
+**Edad:** 24 años<br>
 **Domicilio:** San Miguel <br>
 **Inicio de la Entrevista:** 37:49 <br>
 **Duración de la Entrevista:** 45:33   <br>
 
 **Resumen de la Entrevista:** <br>
-El entrevistado posee entre 6 y 8 plantas y se siente cómodo usando aplicaciones móviles y web. Actualmente organiza el riego de memoria y ha perdido plantas por exceso o falta de agua, por lo que considera útil una herramienta que le permita seguimiento y recordatorios. Le interesan gráficos simples, historial y funciones adicionales como recomendaciones según el clima.
+El entrevistado, Vasco, tiene 24 años y cuida aproximadamente 15 plantas en su departamento, principalmente suculentas y helechos. Aunque se interesa por el ambiente y disfruta el cuidado de sus plantas, suele organizar el riego de manera intuitiva y sin herramientas, lo que en ocasiones ha provocado problemas por exceso o falta de agua. Se siente cómodo usando tecnología y emplea con frecuencia su laptop con Windows, su smartphone Redmi 13C y el navegador Opera GX. Le interesan herramientas digitales que ofrezcan información clara, gráficos simples e historial del estado de sus plantas, además de recordatorios y recomendaciones basadas en el clima.
 
-La Landing Page le resultó clara, profesional y motivadora. Entendió la propuesta del sistema IoT, aunque sugirió explicar mejor la instalación de los sensores.
+La Landing Page le pareció clara, profesional y motivadora. Comprendió sin dificultad la propuesta del sistema IoT de PlantCare, destacando la buena organización del contenido. Su única sugerencia fue mejorar la explicación sobre cómo se conectan e instalan los sensores, especialmente para usuarios con menor experiencia técnica.
 
-En la aplicación móvil encontró la información de manera directa, destacando el Dashboard y las alertas de riego como las funciones más útiles. La configuración inicial del sensor fue el único punto que generó confusión. Consideró adecuado el diseño y propuso añadir consejos simples.
+En la aplicación móvil encontró la información bien estructurada y fácil de ubicar. Consideró particularmente útiles el Dashboard y las alertas de riego, ya que responden directamente a sus principales necesidades. La configuración inicial de los sensores fue el único punto que le generó confusión. Valoró el diseño limpio de la app y sugirió incorporar consejos simples que se adapten al clima o condiciones del entorno.
 
-En la aplicación web valoró la navegación intuitiva, los gráficos de humedad y la organización de la información. Tuvo dificultades solo en la configuración avanzada. Percibió coherencia con la versión móvil.
+En la versión web destacó la navegación intuitiva, la claridad de los títulos y la organización de los datos. Apreció especialmente los gráficos de humedad y riego, así como la posibilidad de visualizar varias plantas en una pantalla más amplia. Señaló que la configuración avanzada resultó un poco técnica, pero percibió coherencia visual y funcional respecto a la aplicación móvil.
 
-Calificó el sistema con 8/10 y afirmó que lo usaría, destacando como principal fortaleza el monitoreo en tiempo real y como punto a mejorar la configuración inicial.
 ---
 
 
