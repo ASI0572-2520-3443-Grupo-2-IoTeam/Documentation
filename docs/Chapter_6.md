@@ -213,6 +213,9 @@ A continuación, se incluye el diagrama de despliegue correspondiente al entorno
 
 [![image.png](https://i.postimg.cc/BbpJ0nfC/image.png)](https://postimg.cc/tnsKdyT1)
 
+Para garantizar un despliegue consistente y automatizado, utilizamos pipelines CI/CD configurados en GitHub Actions. Cada push o pull request hacia las ramas `develop`, `release` y `main` dispara workflows que generan los artefactos correspondientes (build de frontend, empaquetado del backend y generación del APK). Dependiendo del repositorio, estos artefactos son desplegados automáticamente en los servicios configurados: Azure App Service, Azure Static Web Apps o Vercel. Esto asegura trazabilidad, control de versiones y publicación rápida en los entornos productivos definidos.
+
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
@@ -1292,6 +1295,8 @@ Se concluye que la experiencia general es positiva, consistente entre dispositiv
 Link del vídeo about the product: upc-pre-202520-1asi0572-3443-IoTeam-performance-tb2
 Link resubido a youtube: https://youtu.be/v68_VwtRPwA 
 
+# Conclusiones
+
 ## Conclusiones y recomendaciones:
 
 **TB1:**
@@ -1305,6 +1310,8 @@ Link resubido a youtube: https://youtu.be/v68_VwtRPwA
 **TB2:**
 - Durante el proceso se aprendió que los pendientes deben gestionarse con mayor rigurosidad, respaldados en la documentación técnica requerida para cada componente del software. Asimismo, la distribución de tareas durante este Sprint fue adecuada y permitió un avance equilibrado, aunque se identificaron oportunidades de mejora en la coordinación general del equipo para futuros incrementos.
 
+
+## Video About-the-Team
 
 
 ## Bibliografía:
