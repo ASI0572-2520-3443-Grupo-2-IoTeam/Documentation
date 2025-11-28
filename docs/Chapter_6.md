@@ -91,6 +91,7 @@ Dentro de nuestra organización en GitHub, se encuentran los repositorios corres
 |LandingPage|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/LandingPage|
 |Backend|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|
 |Documentation|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Documentation|
+|Edge Service | https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|
 
 **Implementación de GitFlow**
 El flujo de GitFlow facilita un desarrollo estructurado y ordenado. A continuación, se incluye un diagrama que ilustra el proceso general del modelo GitFlow:
@@ -109,6 +110,21 @@ En cada repositorio se crearán las siguientes ramas clave:
 [![image.png](https://i.postimg.cc/wTzdWgzQ/image.png)](https://postimg.cc/YjdV0chv)
 
 Este enfoque nos permite trabajar de manera colaborativa, asegurando la calidad del código y permitiendo gestionar de forma eficaz las diferentes fases del desarrollo, desde la creación de nuevas características hasta la publicación de versiones estables y la corrección de errores.
+
+**Convenciones de Versionado y Mensajes de Commit**
+
+Seguiremos el estándar **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`) para el nombrado de versiones formales del producto (ejemplo: `v1.0.0`, `v1.1.0`, `v1.1.1`).
+
+Para garantizar claridad en el historial de cambios y facilitar el seguimiento automatizado, utilizaremos la convención **Conventional Commits**, usando prefijos como:
+- `feat:` para nuevas funcionalidades
+- `fix:` para corrección de errores
+- `docs:` para cambios en documentación
+- `test:` para pruebas
+- `refactor:` para mejoras internas sin cambios funcionales
+
+Ejemplo de commit:
+ - feat: agregar autenticación con JWT en el backend
+ - fix: error de conexión con la database
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
