@@ -1,44 +1,37 @@
-<div align="center">
-
-# Universidad Peruana de Ciencias Aplicadas
-
-</div>
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
-</div>
-
-<div align="center">
-
-Ingeniería de Software
-
-1ASI0572 - Desarrollo de Soluciones IoT
-
-Docente: Angel Augusto Velasquez Nuñez
-
-<big>Informe trabajo final</big>
-
-Startup: IoTeam
-
-Producto: PlantCare
-
-</div>
-
-## Integrantes
-
-| **Nombre**                           | **Código** |
-| ------------------------------------ | ---------- |
-| Casaverde De La Cruz, Ernesto David  | u20221B657 |
-| Cantoral Sedamano, Alexander Alberto | u20181B152 |
-| Chirinos Zúñiga, Rodrigo Manuel      | u202217804 |
-| Hurtado Palomino, Francisco Juan     | u202117498 |
-| Reyes Trujillano, Fabian Alonso      | u202218233 |
-| Silva Morales, Renzo Cesar           | u20221c362 |
-| Zevallos Linares, Alessandro Netto   | u202216035 |
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <br><img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br>
+    <br>
+    <strong>Ingeniería de Software - 202520</strong><br>
+    <br>
+    <strong>1ASI0572 - Desarrollo de Soluciones IoT</strong><br>
+    <br>
+    <strong>NRC: 3443 </strong><br>  
+    <br>
+    <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
+    <br> <strong>INFORME DEL TRABAJO FINAL</strong> 
+</p>
+<p align="center">
+    <strong>Startup: IoTeam</strong><br>
+    <strong>Producto: PlantCare</strong>
+</p>
+<p align="center">
+      <strong>NOVIEMBRE 2025 </strong>
+  </p>
 
 <div align="center">
-Ciclo 2025-20
+  Integrantes
 
+  | **APELLIDOS Y NOMBRES**                           | **CÓDIGO** |
+  | ------------------------------------ | ---------- |
+  | Casaverde De La Cruz, Ernesto David  | u20221B657 |
+  | Cantoral Sedamano, Alexander Alberto | u20181B152 |
+  | Chirinos Zúñiga, Rodrigo Manuel      | u202217804 |
+  | Hurtado Palomino, Francisco Juan     | u202117498 |
+  | Reyes Trujillano, Fabian Alonso      | u202218233 |
+  | Silva Morales, Renzo Cesar           | u20221c362 |
+  | Zevallos Linares, Alessandro Netto   | u202216035 |
+  
 </div>
 
 ## Registro de Versiones
