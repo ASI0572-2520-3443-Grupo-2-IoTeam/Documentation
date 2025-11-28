@@ -657,6 +657,13 @@ La siguiente Matriz de Liderazgo y Colaboración (LACX) presenta los roles asign
 
 #### 6.2.2.3. Sprint Backlog 2.
 
+El Sprint Backlog correspondiente al Sprint 2 fue construido durante la sesión de Sprint Planning, con el objetivo principal de consolidar la segunda versión de la Landing Page y el Frontend Web, así como desarrollar la primera versión funcional del prototipo IoT, Backend y Frontend Móvil. Para ello, se seleccionaron los User Stories priorizados por el Product Owner según el valor entregado al usuario final y el nivel de dependencia técnica entre módulos del ecosistema.
+El Backlog fue administrado mediante la herramienta Trello, donde se organizaron los User Stories aceptados y se descompusieron en tareas específicas y medibles. A través del tablero se gestionó el progreso del trabajo durante el sprint, permitiendo visualizar de manera clara el flujo de tareas desde el estado To Do hasta Done, facilitando la transparencia y colaboración entre todos los miembros del equipo.
+
+[![image.png](https://i.postimg.cc/50StxHXK/image.png)](https://postimg.cc/wy3z2jcD)
+
+Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
+
 <table>
   <thead>
     <tr><td>Sprint #</td><td colspan="7">Sprint 2</td></tr>
@@ -728,7 +735,7 @@ La siguiente Matriz de Liderazgo y Colaboración (LACX) presenta los roles asign
   </tbody>
 </table>
 
-Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
+
 
 6.2.2.4. Development Evidence for Sprint Review.
 
