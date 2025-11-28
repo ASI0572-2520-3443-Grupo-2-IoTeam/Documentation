@@ -678,7 +678,7 @@ Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
 <tr><td>US-005</td><td>Registro de usuario</td><td>T1</td><td>Crear UI y formulario</td><td>Diseño de campos, validaciones y eventos</td><td>4</td><td> Ernesto Casaverde, Rodrigo Chirinos, Alessandro Zevallos, Alexander Cantoral</td><td>Done</td></tr>
     <tr><td></td><td></td><td>T2</td><td>Crear endpoint POST /authentication/signup</td><td>API REST con DDD (application-domain-infra)</td><td>6</td><td>Alexander Cantoral</td><td>Done</td></tr>
     <tr><td></td><td></td><td>T3</td><td>Persistencia en BD</td><td>Implementación en capa Repository</td><td>3</td><td>Alexander Cantoral, Rodrigo Chirinos</td><td>Done</td></tr>
-<tr><td>US-006</td><td>Inicio de sesión</td><td>T4</td><td>UI y conexión con backend</td><td>Consumo de endpoint /authentication/signin</td><td>4</td><td>Rodrigo Chirinos</td><td>Done</td></tr>
+<tr><td>US-006</td><td>Inicio de sesión</td><td>T4</td><td>UI y conexión con backend</td><td>Consumo de endpoint /authentication/sign-in</td><td>4</td><td>Rodrigo Chirinos</td><td>Done</td></tr>
     <tr><td></td><td></td><td>T5</td><td>Manejo de JWT y refresh token</td><td>Almacenamiento seguro local</td><td>4</td><td>Alexander Cantoral, Rodrigo Chirinos</td><td>Done</td></tr>
 <tr><td>US-009</td><td>Autenticación externa (Google)</td><td>T6</td><td>Integración Google OAuth</td><td>Configuración de keys y callback</td><td>6</td><td>Rodrigo Chirinos</td><td>Done</td></tr>
 <tr><td>US-008</td><td>Gestión de sesión</td><td>T7</td><td>Middleware de protección de rutas</td><td>Guard para Web y Móvil</td><td>3</td><td>UN</td><td>Done</td></tr>
@@ -824,21 +824,22 @@ En esta sección se presentan las evidencias de los avances de implementación m
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|4775b2d1c2f9ff60dd6df2ff4103471eaaadebbf|quit id database|-|7/11/2025|
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
-En esta sección se presentan las evidencias de la Testing Suite desarrollada durante el Sprint 2. En este se centraron los esfuerzos del equipo en desarrollar una nueva versión de los productos ya presentados en el anterior sprint, terminar us pendientes y agregar un backend service junto con una versión mobile de la aplicación.
+Durante el Sprint 2 se desarrollaron y evaluaron funcionalidades clave relacionadas con la gestión de plantas, la comunicación con el dispositivo IoT, la autenticación de usuarios y el manejo de planes de suscripción. El objetivo principal del Testing Suite en esta iteración fue validar el funcionamiento correcto de las nuevas entregas del Sprint y asegurar que los flujos críticos de la aplicación operen de manera consistente en los productos involucrados (Landing Page, Frontend Web, Backend y Aplicación Móvil).
+Las actividades de testing incluyeron pruebas funcionales, validación de integración entre componentes y planificación de pruebas para las historias que permanecen en progreso. A continuación, se presenta la tabla con el detalle del estado de avance por User Story y el tipo de prueba ejecutada o planificada.
 
 |User Story|Avance durante el Sprint|Testing asociado|
-|US-009 Autenticación externa segura|Funcional|Planificado: Validación de sign-in mediante cuenta de google|
-|US-011 Registro simplificado de planta|Funcional| Planificado: |
-|US-012 Edición rápida de información de planta|Funcional||
-|US-013 Eliminicación confirmada de planta|Funcinal||
-|US-015 Visualización de plantas| Funcional||
-|US-021 Análisis histórico de plantas| En Proceso||
-|US-022 Reportes semanales detallados| En Proceso||
-|US-023 Reportes de largo plazo| En Proceso||
-|US-042 Vinculación simplificada de dispostivo| Funcional||
-|US-044 Recepción de datos en tiempo real| Funcional||
-|US-046 Selección flexible de planes| Funcional||
-|US-048 Cancelación flexible| Funcional||
+|US-009 Autenticación externa segura|Funcional|Validación de Sign-In mediante cuenta de Google (Planificado)|
+|US-011 Registro simplificado de planta|Funcional| Pruebas funcionales en formulario y persistencia básica (Planificado)|
+|US-012 Edición rápida de información de planta|Funcional|Pruebas funcionales en editor de planta (Planificado)|
+|US-013 Eliminicación confirmada de planta|Funcinal|Test de confirmación de eliminación (Planificado)|
+|US-015 Visualización de plantas| Funcional|Pruebas de integración con backend y renderizado de interfaz (Ejecutado)|
+|US-021 Análisis histórico de plantas| En Proceso|Diseño de casos de prueba en curso|
+|US-022 Reportes semanales detallados| En Proceso|Planificación de pruebas detalladas|
+|US-023 Reportes de largo plazo| En Proceso|Escenarios de análisis definidos|
+|US-042 Vinculación simplificada de dispostivo| Funcional|Pruebas funcionales básicas y comunicación inicial con IoT (Ejecutado)|
+|US-044 Recepción de datos en tiempo real| Funcional|Pruebas de transmisión MQTT y actualización UI (Ejecutado)|
+|US-046 Selección flexible de planes| Funcional|Validación de UI/UX y flujo de selección (Planificado)|
+|US-048 Cancelación flexible| Funcional|Caso de prueba estructurado para cancelación (Planificado)|
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
@@ -848,14 +849,26 @@ En esta sección se presentan las evidencias de la Testing Suite desarrollada du
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
-En esta sección se evidenciará lo desarrollado para el sprint y se adjuntará pruebas.
+Durante este Sprint se logró ejecutar e integrar los principales componentes del ecosistema PlantCare, incluyendo el prototipo físico IoT, el backend inicial, el frontend web y la versión móvil en desarrollo. La ejecución permitió validar la interoperabilidad entre los módulos, comprobar el flujo de datos desde el dispositivo IoT hasta la aplicación y evaluar el comportamiento general del sistema en escenarios reales y simulados.
 
-Ejecución del prototipo físico: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/IQBpfjcLz-U0TKRLadThT8qZAUIJlcP98tkqA-9j6uqi90Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mnLTZ5 
-Link corto: https://goo.su/o5rD7dM 
-Ejecución del proyecto en conjunto con el prototipo simulado:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/IQAoypD-3alPRJe3zfnGn-aHASX8eYh4rg-9-lYytU5W-H4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=x8fLfW
-Link corto: https://goo.su/JcHVn 
+Las siguientes evidencias documentan la ejecución funcional obtenida durante el Sprint 2, mostrando tanto la interacción con el prototipo físico como la experiencia de uso en los componentes desarrollados:
 
+- **Ejecución del prototipo físico IoT**
+Video demostrativo del funcionamiento de los sensores, envío de datos y respuesta integrada: https://goo.su/o5rD7dM 
+- **Ejecución del proyecto integrado con prototipo simulado**
+Validación de conexión entre frontend, backend y simulación del prototipo IoT, demostrando el flujo completo del sistema: https://goo.su/JcHVn 
+
+A continuación se presentan capturas de pantalla de las principales vistas implementadas y flujos ejecutados durante la demostración del Sprint, como parte del proceso de revisión y verificación técnica de los entregables.
+
+[![image.png](https://i.postimg.cc/YqBwpsdw/image.png)](https://postimg.cc/bdg5g3X6)
+[![image.png](https://i.postimg.cc/5t2VhQnF/image.png)](https://postimg.cc/qNSSnqfk)
+[![image.png](https://i.postimg.cc/RVSXQ1Fh/image.png)](https://postimg.cc/XXPfnC96)
+[![image.png](https://i.postimg.cc/4dFNLQG9/image.png)](https://postimg.cc/cgwS6Yrx)
+[![image.png](https://i.postimg.cc/0r1vFtHF/image.png)](https://postimg.cc/JHxSBQ85)
+[![image.png](https://i.postimg.cc/vZz1794T/image.png)](https://postimg.cc/w11Tg1cY)
+[![image.png](https://i.postimg.cc/TwZh2Js2/image.png)](https://postimg.cc/ftfMBmZ1)
+[![image.png](https://i.postimg.cc/8z1cC5Zp/image.png)](https://postimg.cc/PPRT3tG9)
+[![image.png](https://i.postimg.cc/hPnPCvWy/image.png)](https://postimg.cc/HjSgnpLX)
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -929,14 +942,14 @@ Los siguientes commits corresponden al conjunto de cambios realizados durante es
 | `/api/v1/plants` | POST | Crear una nueva planta | Body (JSON) | `{ "message":"plant created" }` |
 | `/api/v1/plants/{plantId}/watering` | POST | Regar planta específica | `plantId` (path) | `{ "status":"watered" }` |
 | `/api/v1/users/{userId}/plants` | GET | Obtener plantas por usuario | `userId` (path) | `[ { id:1, name:"Orchid"} ]` |
-| `/api/v1/authentication/google/signin` | POST | Login con Google | Body (JSON) | `{ "token":"jwt_token" }` |
+| `/api/v1/authentication/google/sign-in` | POST | Login con Google | Body (JSON) | `{ "token":"jwt_token" }` |
 | `/api/community/members` | GET | Listar miembros de la comunidad | - | `[ {name:"Luis", role:"admin"} ]` |
 | `/api/community/members` | POST | Registrar nuevo miembro | Body (JSON) | `{ "message":"member registered" }` |
 | `/api/community/posts` | GET | Obtener publicaciones de la comunidad | - | `[ { "title":"Mi planta creció!" }]` |
 | `/api/community/posts` | POST | Crear una nueva publicación | Body (JSON) | `{ "message":"post created" }` |
 | `/api/community/posts/{postId}` | DELETE | Eliminar publicación | `postId` (path) | `{ "message":"post deleted" }` |
 | `/api/v1/authentication/signup` | POST | Registrar usuario | Body (JSON) | `{ "message":"user created" }` |
-| `/api/v1/authentication/signin` | POST | Iniciar sesión | Body (JSON) | `{ "token":"jwt_token" }` |
+| `/api/v1/authentication/sign-in` | POST | Iniciar sesión | Body (JSON) | `{ "token":"jwt_token" }` |
 
 **Endpoints Documentados en OpenAPI – Edge Services**
 
@@ -1370,8 +1383,15 @@ Se concluye que la experiencia general es positiva, consistente entre dispositiv
 
 ### 6.4. Video About-the-Product.
 
-Link del vídeo about the product: upc-pre-202520-1asi0572-3443-IoTeam-performance-tb2
-Link resubido a youtube: https://youtu.be/v68_VwtRPwA 
+El video About-the-Product presenta una visión clara y accesible sobre el propósito y alcance de PlantCare, abordando el problema identificado, la propuesta de valor y las principales funcionalidades del ecosistema tecnológico (Web, Mobile e IoT). Está dirigido a los visitantes del Landing Page y a usuarios interesados en comprender el modelo de negocio y las capacidades de la solución para mejorar el cuidado de sus plantas mediante tecnología inteligente.
+
+El contenido del video incluye una descripción del flujo general del producto, desde el registro del usuario hasta la gestión y seguimiento de plantas mediante datos obtenidos en tiempo real a través del prototipo IoT. Además, se incorpora un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la utilidad del producto en situaciones reales y destacando la relevancia de su impacto.
+
+[![image.png](https://i.postimg.cc/d1pXW4W4/image.png)](https://postimg.cc/N98pF7vH)
+
+Versión institucional: https://goo.su/NFZgK
+
+Versión pública: https://youtu.be/v68_VwtRPwA 
 
 # Conclusiones
 
@@ -1391,6 +1411,15 @@ Link resubido a youtube: https://youtu.be/v68_VwtRPwA
 
 ## Video About-the-Team
 
+El video About-The-Team presenta el proceso de trabajo colaborativo desarrollado durante el Sprint 2, mostrando escenas reales de reuniones, sesiones de desarrollo, avances técnicos y coordinación grupal.
+Cada integrante del equipo describe en primera persona sus aportes, aprendizajes, outcomes alcanzados y cómo contribuyó al desarrollo del ecosistema PlantCare (Landing Page, Web, Mobile, Backend e IoT).
+El contenido busca reflejar la complementariedad de roles, el compromiso colectivo y el crecimiento técnico y profesional obtenido durante el proyecto.
+
+[![image.png](https://i.postimg.cc/5NGQNvXQ/image.png)](https://postimg.cc/4m6xWYbX)
+
+Versión para Landing Page:https://youtu.be/v68_VwtRPwA
+
+Versión institucional / backup: https://goo.su/92KEs
 
 ## Bibliografía:
 - HTML Style Guide and Coding Conventions – W3Schools: https://www.w3schools.com/html/html5_syntax.asp  
@@ -1404,57 +1433,65 @@ Link resubido a youtube: https://youtu.be/v68_VwtRPwA
 
 - APIRESTFUL GUIDE: https://restfulapi.net/ 
 
-## Anexos:
-**Link de la exposición grupal TB1:**https://goo.su/JGnClEx
+Los siguientes anexos complementan la documentación del proyecto, proporcionando evidencia visual, referencias técnicas y recursos utilizados durante el desarrollo del producto y la gestión del trabajo en equipo.
 
-**Link de la exposición grupal TB2:**https://goo.su/Gzdhp
+---
 
-**Trello:**
-https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare
+## Anexos
 
-**Wireframes & Mock-Ups:**
+### **Anexo A – Videos de Exposiciones**
 
-Landing Page: [https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=45-2&t=GWLix1KIlk7wI6Qs-1](https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=45-2&t=GWLix1KIlk7wI6Qs-1)
+| Entrega | Descripción | Enlace |
+|---------|-------------|--------|
+| **TB1** | Exposición grupal de la primera entrega | https://goo.su/JGnClEx |
+| **TB2** | Exposición grupal de la segunda entrega | https://goo.su/Gzdhp |
 
-Web App: [https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=13-3315&t=3nMXXTmW2i14bcze-1](https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=13-3315&t=3nMXXTmW2i14bcze-1)
+---
 
-Mobile App: [https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=8-2270&t=3nMXXTmW2i14bcze-1](https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=8-2270&t=3nMXXTmW2i14bcze-1)
+### **Anexo B – Herramientas de Gestión del Proyecto**
 
-**Applications Wireflow Diagrams:**
+| Recurso | Enlace |
+|----------|--------|
+| **Trello – Gestión de actividades y seguimiento del Sprint** | https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare |
 
-[https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-1088%2C-2778%2C3837%2C1752%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a3410](https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-1088%2C-2778%2C3837%2C1752%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a341)
+---
 
-**User Flow Diagram:**
+### **Anexo C – Wireframes & Mock-Ups**
 
-[https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-8930%2C3000%2C4391%2C2005%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a341](https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-8930%2C3000%2C4391%2C2005%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a341)
+| Recurso | Enlace |
+|---------|--------|
+| **Landing Page (Figma)** | https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=45-2 |
+| **Web Application (Figma)** | https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=13-3315 |
+| **Mobile App (Figma)** | https://www.figma.com/design/soYjRW2pgWZNuAPj7SOik1/PlantCare?node-id=8-2270 |
 
-**Applications Prototyping:**
+---
 
-Web Application Prototype: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/ER2OB0Z8ZYxDgETMe6z03FcBhrHLRdMAlxvaR94OMswaEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gPzSG4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/ER2OB0Z8ZYxDgETMe6z03FcBhrHLRdMAlxvaR94OMswaEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gPzSG4)
+### **Anexo D – Diagramas de Flujo y Wireflows**
 
-Mobile Application Prototype: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EUp1F0x6NpNGmcnWxEIED-kBeIuYPmkCeOyooGUNKfKkWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jAriNx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EUp1F0x6NpNGmcnWxEIED-kBeIuYPmkCeOyooGUNKfKkWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jAriNx)
+| Recurso | Enlace |
+|---------|--------|
+| **Applications Wireflow Diagrams** | https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-1088%2C-2778%2C3837%2C1752%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a341 |
+| **User Flow Diagram** | https://lucid.app/lucidchart/4b0365af-e9c3-4dd8-8d37-09ced3e121e4/edit?viewport_loc=-8930%2C3000%2C4391%2C2005%2C0_0&invitationId=inv_ebe9c381-d702-46b5-83d5-7a684d13a341 |
 
-Wowki Prototype: [https://wokwi.com/projects/447644125509635073](https://wokwi.com/projects/447644125509635073)
+---
 
-Wowki con edge services: https://wokwi.com/projects/446905492492819457 
+### **Anexo E – Prototipos Interactivos**
 
+| Recurso | Enlace |
+|---------|--------|
+| **Web Application Prototype** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/ER2OB0Z8ZYxDgETMe6z03FcBhrHLRdMAlxvaR94OMswaEw |
+| **Mobile Application Prototype** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EUp1F0x6NpNGmcnWxEIED-kBeIuYPmkCeOyooGUNKfKkWQ |
+| **IoT Prototype (Wokwi)** | https://wokwi.com/projects/447644125509635073 |
+| **IoT + Edge Services Simulation** | https://wokwi.com/projects/446905492492819457 |
 
-About the product vídeo: https://goo.su/gCaFYoZ
-About the team vídeo: https://goo.su/92KEs
+---
 
-**Despliegues**
+### **Anexo F – Despliegues del Producto**
 
-**Landing Page:** 
-https://plant-care-landing-page-one.vercel.app/
-
-**Frontweb App:** 
-https://frontendweb-b47l.onrender.com/
-
-**Mobile App**
-Link de release: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile/releases/tag/v1.0.0
-
-**Backend Services**
-https://plantcare-awcchhb2bfg3hxgf.canadacentral-01.azurewebsites.net/swagger-ui/index.html# 
-
-**Edge Services**
-https://plantcare-edge-service.onrender.com/apidocs/
+| Producto | Enlace |
+|----------|--------|
+| **Landing Page** | https://plant-care-landing-page-one.vercel.app/ |
+| **Frontend Web App** | https://frontendweb-b47l.onrender.com/ |
+| **Mobile App – Release v1.0.0** | https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile/releases/tag/v1.0.0 |
+| **Backend Services (Swagger UI)** | https://plantcare-awcchhb2bfg3hxgf.canadacentral-01.azurewebsites.net/swagger-ui/index.html |
+| **Edge Services** | https://plantcare-edge-service.onrender.com/apidocs/ |
