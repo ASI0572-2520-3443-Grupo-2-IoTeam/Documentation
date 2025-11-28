@@ -632,13 +632,20 @@ Este Sprint permitió avanzar desde una demostración estática hacia una soluci
 | **Location**                     | La reunión se realizó de forma presencial                                             |
 | **Prepared By**                  | IoTeam                                                                                                             |
 | **Attendees (to planning meeting)** |Alexander Cantoral, Ernesto Casaverde, Rodrigo Chirinos, Alessandro Zevallos, Fabian Reyes |
+|Sprint 1 Review Summary| Durante el Sprint 1 se logró la primera versión de la Landing Page y del Frontend Web, enfocada en mostrar contenido inicial y navegación básica para validación temprana. Se recibió feedback positivo sobre la estructura visual, y se identificó la necesidad de extender funcionalidades reales mediante una API y una versión móvil inicial del sistema.|
+|Sprint 1 Retrospective Summary| El equipo destacó como acierto principal la buena comunicación y coordinación para definir bases técnicas. Como oportunidad de mejora, se identificó la necesidad de una mejor estimación del esfuerzo técnico y una mayor frecuencia de reuniones de sincronización para alineación de avances entre equipos (web, móvil e IoT).|
 | **Sprint Goal & User Stories**   |                                                            |
-| **Sprint Goal**                |**Our focus** is on consolidar la segunda versión de la Landing Page y del Frontend Web, **and to deliver** la primera versión funcional del prototipo IoT, Backend y Frontend Móvil. **We believe this delivers** una base sólida para la integración del ecosistema completo (web, móvil e IoT), **allowing us to** evaluar la interoperabilidad entre componentes y definir mejoras para los próximos sprints. **This will be confirmed** una vez completadas las pruebas de comunicación y funcionamiento entre los módulos desarrollados. |
-| **Sprint Velocity**            |  La velocidad del equipo fue de  17 puntos de historia por semana en un periodo de 4 semanas, completando la mayoría de las historias priorizadas para esta iteración, centradas en la integración del entorno web, móvil e IoT.|
-| **Sum of Story Points**          | Se asignaron 68 puntos de historia a las tareas completadas, correspondientes a historias de usuario relacionadas con el desarrollo y despliegue de la segunda versión de la Landing Page, el Frontend Web, y las primeras versiones del prototipo IoT, Backend y Frontend Móvil.|
+| **Sprint Goal**                |**Our focus is on** implementing the first functional prototype of the IoT measurement module and connecting it to the backend for data registration. **We believe**this demonstrates technical feasibility and enables decision-making about the product direction. **This will be confirmed** when sensor data is stored successfully in the database through the prototype. |
+| **Sprint Velocity**            |  The team planned a velocity of 56 Story Points for this sprint.|
+| **Sum of Story Points**          | A total of 56 Story Points were completed, corresponding to all user stories included in the Sprint Backlog that met the Definition of Done. This represents 100% completion of the committed scope.|
 
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 2, el equipo estableció responsabilidades de liderazgo y colaboración en torno a los principales aspectos funcionales incluidos en el alcance de la iteración.
+El objetivo de esta organización fue asegurar claridad en la propiedad de cada componente, mejorar la coordinación interna y optimizar el flujo de trabajo según las fortalezas técnicas de cada integrante. Estos aspectos correspondieron a elementos clave del ecosistema en desarrollo: autenticación e identidad, administración de plantas (IoT), análisis y reportes, interacción comunitaria y gestión de suscripciones.
+
+La siguiente Matriz de Liderazgo y Colaboración (LACX) presenta los roles asignados:
 
 | Team Member (Apellido, Nombre) | GitHub Username |Auth & Indentity<br>Leader (L) /Collaborator (C)| Plant Management<br>Leader (L) /Collaborator (C)| Analysis & Reporting <br>Leader (L) /Collaborator (C)| Community<br>Leader (L) /Collaborator (C)|Subscription<br>Leader (L) /Collaborator (C)|
 |-------------|---------|--------------|-------|-----|----|---|
