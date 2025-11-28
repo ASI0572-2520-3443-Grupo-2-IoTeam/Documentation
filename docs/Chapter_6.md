@@ -229,13 +229,17 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
 | **Time**                         | 3:00 pm                                                                                                                |
 | **Location**                     | La reunión se realizó de forma virtual por la plataforma Discord                                                        |
 | **Prepared By**                  | IoTeam                                                                                                             |
-| **Attendees (to planning meeting)** | |
+| **Attendees (to planning meeting)** |- Casaverde De La Cruz, Ernesto David <br> - Cantoral Sedamano, Alexander Alberto<br> -Chirinos Zúñiga, Rodrigo Manuel <br> - Hurtado Palomino, Francisco Juan<br> -Reyes Trujillano, Fabian Alonso<br> - Silva Morales, Renzo Cesar <br>- Zevallos Linares, Alessandro Netto|
 | **Sprint Goal & User Stories**   |                                                            |
-| **Sprint Goal**                |       **Our focus is on** *concretar una primera versión de la Landing Page y Frontend.* **We believe it delivers** *un acercamiento real de cómo funcionaría nuestra aplicación en conjunto con una fakeapi,* **to** *testear features y ver que mejoras se implementarían para las siguientes versiones de los mismos* **This will be confirmed** *cuando se termine dicha versión y se pueda probar lo implementado* |
-| **Sprint Velocity**            |  La velocidad del equipo fue de 56 puntos de historia en un periodo de 2 semanas, completando todas las historias priorizadas para esta iteración.                                                                        |
-| **Sum of Story Points**          | Se asignaron 56 puntos de historia a las tareas completadas, correspondientes a historias de usuario vinculadas al desarrollo y despliegue de la Landing Page, primera versión de Frontend Web y la Fake API. |
+| **Sprint Goal** | **Our focus is on** delivering an MVP prototype that allows early validation of the PlantCare solution.**We believe it delivers** initial value to potential users by enabling them to understand the product’s purpose and visualize how it will help them take care of their plants. **This will be confirmed when** the Scrum Master and test users provide feedback based on interacting with the Landing Page and reviewing the first version of the interface with mock data. |
+| **Sprint Velocity**            |  The team planned a velocity of 56 Story Points for this sprint.                                                                        |
+| **Sum of Story Points**          | A total of 13 Story Points were completed, corresponding to the Landing Page user stories that met the Definition of Done. Partially implemented stories were not counted since they were not fully completed. |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators.
+
+Durante este Sprint, el equipo definió los principales aspectos funcionales dentro del alcance del trabajo: Authentication & Identity, Plant Management, Analysis & Reporting, y Community Features.
+Para asegurar claridad en la ejecución y facilitar la distribución de tareas, se estableció la matriz LACX (Leadership-and-Collaboration Matrix), donde se identifica qué miembros asumen el rol de Líder (L) en cada aspecto, y quiénes participan como Colaboradores (C).
+Esta asignación permite coordinar mejor los esfuerzos técnicos y de diseño, evitando duplicidad de esfuerzos y promoviendo apoyo entre roles según experiencia y disponibilidad.
 
 | Team Member (Apellido, Nombre) | GitHub Username |Auth & Indentity<br>Leader (L) /Collaborator (C)| Plant Management<br>Leader (L) /Collaborator (C)| Analysis & Reporting <br>Leader (L) /Collaborator (C)| Community<br>Leader (L) /Collaborator (C)|
 |-------------|---------|--------------|-------|-----|----|
@@ -247,6 +251,14 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
 | Silva Morales, Renzo Cesar | rrenzosilva |-|C|C|C|
 |Zevallos Linares, Alessandro Netto | OutBreakAZL | C | C|C|C|
 #### 6.2.1.3. Sprint Backlog 1.
+
+El Sprint Backlog del Sprint 1 contiene los User Stories seleccionados en base al Sprint Goal definido, enfocado en entregar una primera versión funcional (MVP) que permita a los usuarios registrarse, acceder a la plataforma, gestionar plantas básicas y visualizar contenido inicial de la comunidad.
+Cada User Story ha sido descompuesta en Work Items / Tasks estimados en horas y asignados a miembros del equipo siguiendo la matriz LACX previamente definida.
+El siguiente Sprint Board corresponde al tablero oficial utilizado para seguimiento en Trello, donde puede visualizarse el estado de cada tarea durante la iteración.
+
+[![image.png](https://i.postimg.cc/mrBRh1LM/image.png)](https://postimg.cc/RWs2DFnV)
+
+Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare 
 
 <table>
     <thead>
@@ -352,7 +364,7 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
             <td>Planta lista a ser medida en la app</td>
             <td>02</td>
             <td>Ernesto Casaverde y Alexander Cantoral, Rogrigo Chirinos y Alessandro Zevallos</td>
-            <td>Done</td>
+            <td>In-Process</td>
         </tr>
         <tr>
             <td>US-012</td>
@@ -372,7 +384,7 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
             <td>Eliminación de datos de planta</td>
             <td>02</td>
             <td>Ernesto Casaverde</td>
-            <td>Done</td>
+            <td>In-Process</td>
         </tr>
         <tr>
             <td>US-021</td>
@@ -412,7 +424,7 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
             <td>Los usuarios pueden ingresar al apartado de comunidad</td>
             <td>03</td>
             <td>Francisco Hurtado</td>
-            <td>Done</td>
+            <td>In-Process</td>
         </tr>
         <tr>
             <td>US-028</td>
@@ -434,15 +446,15 @@ En este sprint presentamos el avance en la primera versión de la Landing Page y
             <td>Francisco Hurtado</td>
             <td>In-Progress</td>
         </tr>
-
-    </tbody>
 </table>
 
-[![image.png](https://i.postimg.cc/JhWs9D5x/image.png)](https://postimg.cc/zy0DhfMH)
-
-Link del trello: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare 
-
 #### 6.2.1.4. Development Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de desarrollo obtenidas durante el Sprint 1, relacionadas con los productos incluidos en el alcance del Sprint: Landing Page y Frontend Web Application.
+Se muestran los commits realizados en cada repositorio, reflejando el avance en la implementación del MVP funcional basado en mockups y datos simulados, permitiendo navegación, gestión inicial de plantas, comunidades y configuración de estructura visual.
+Cada commit está asociado a los trabajos definidos en el Sprint Backlog y evidencia contribuciones reales del equipo mediante el uso de GitHub, ramas por feature y Conventional Commits.
+
+Cabe aclarar que la rama dev-fake-api fue la que se uso para el front-web con mockups.
 
 **Landing Page:**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
@@ -488,6 +500,30 @@ Link del trello: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop | 31d54d3d7d8793b5fe8e33e27500b8ca143248f2|Merge branch 'dev-fake-api'| |9/10/2025|
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop |f05dce492cec7ad844b282bcda3ee2e6d8d5ee35 |feat: add logos| |9/10/2025|
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la Testing Suite desarrollada durante el Sprint 1.
+Debido a que este Sprint se centró en la construcción de un MVP funcional con mockups y estructura inicial, se incluyeron principalmente pruebas iniciales de documentación y configuración del entorno de testing, así como planificación y estructura base para futuras pruebas automatizadas.
+Aún no se implementaron Unit Tests ni Integration Tests completos, ya que se requería primero consolidar la arquitectura y los módulos funcionales del Frontend y Backend. Sin embargo, se avanzó con la preparación del repositorio y la documentación técnica para los próximos sprints.
+
+|User Story|Avance durante el Sprint|	Testing asociado|
+|-|-|-|
+|US- 001 - Acceso a la Landing Page| Funcional |Verificación manual de acceso y carga inicial de la página|
+|US-002 - Secciones informativas diferenciadas|Funcional |Revisión manual de estructura visual y navegación entre secciones|
+|US-003	- Call to Action contextual|Funcional|Validación manual del funcionamiento de CTAs y navegación|
+|US-004	Testimonios segmentados|En proceso|Planificado: Validación de maquetación y contenido dinámico|
+|US-005	Registro de usuario|Funcional|Planificado: Validación de campos obligatorios y flujo de registro|
+|US-006	Inicio de sesión|Funcional|Planificado: Validación de credenciales y redirección post-login (Acceptance Test)|
+|US-010	Cerrar sesión|Funcional|Planificado: Validación de cierre de sesión y limpieza de sesión|
+|US-011	Registro simplificado de planta|En proceso|Planificado: Verificación de estructura de formulario y persistencia simulada|
+|US-012	Edición rápida de información de planta|En proceso|Planificado: Validación de edición en modo mock y actualización visual|
+|US-013	Eliminación confirmada de planta|En proceso|Planificado: Test de confirmación modal y actualización en vista|
+|US-021	Análisis histórico con gráficos avanzados|En proceso (funcional con mockups)|Planificado: Validación de carga de datos simulados y render básico|
+|US-022	Reportes semanales detallados|En proceso (funcional con mockups)|Planificado: Verificación de estructura del reporte y navegación|
+|US-023	Reportes de largo plazo|En proceso (funcional con mockups)|Planificado: Validación del flujo visual|
+|US-027	Integración automática a la comunidad|En proceso (funcional con mockups)|Planificado: Validación de acceso automático y flujo simulado|
+|US-028	Feed comunitario|En proceso (funcional con mockups)|Planificado: Verificación de publicación y visualización en mock|
+|US-032	Interacción y aprendizaje comunitario|En proceso (funcional con mockups)|Planificado: Validación de reacciones y comentarios simulados|
+
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Testing| main |470d2f91608953bfd54945bd73d0882c2dde48a2| docs: testing sprint 1||8/10/2025|
