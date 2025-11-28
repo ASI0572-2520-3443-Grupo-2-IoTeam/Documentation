@@ -735,9 +735,10 @@ Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
   </tbody>
 </table>
 
-
-
 6.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2 se avanzó de manera significativa en la implementación de los componentes principales del ecosistema de la solución, de acuerdo con el alcance definido para esta iteración. Se desarrolló la segunda versión funcional de la Landing Page y del Frontend Web, incluyendo mejoras en usabilidad, navegación e integración con la API. Asimismo, se construyó la primera versión operativa del prototipo IoT y se realizaron avances estructurales para los módulos iniciales del Backend y del Frontend Móvil.
+En esta sección se presentan las evidencias de los avances de implementación mediante una tabla que recopila los commits asociados a cada repositorio, garantizando trazabilidad entre los entregables y los User Stories comprometidos en este Sprint. Los commits mostrados reflejan la evolución del trabajo técnico realizado por el equipo.
 
 **Landing Page:**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
