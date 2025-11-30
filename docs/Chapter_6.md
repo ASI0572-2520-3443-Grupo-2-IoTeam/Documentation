@@ -45,6 +45,7 @@ Para el manejo del proyecto se usará las siguientes herramientas que son clave 
 | **Flutter** | Framework multiplataforma utilizado para el desarrollo de aplicaciones móviles con un solo código base. | [https://flutter.dev/](https://flutter.dev/) |
 
 ---
+<div style="page-break-after: always;"></div>
 
 **Herramientas de Desarrollo**
 
@@ -218,10 +219,14 @@ Para garantizar un despliegue consistente y automatizado, utilizamos pipelines C
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
+
 ### 6.2.1. Sprint 1
 Durante este primer Sprint, el equipo desarrolló la primera versión funcional de la Landing Page y del Frontend Web, permitiendo mostrar la propuesta inicial del producto para validación con el Scrum Master y stakeholders. Asimismo, se estableció la estructura base para la aplicación móvil y la organización de los repositorios en GitHub, fomentando la colaboración del equipo desde las primeras actividades técnicas.
 
 Este Sprint se centró en construir un MVP inicial de visualización, enfocado en probar diseño, navegación y contenido introductorio, con el objetivo de obtener retroalimentación temprana que permita orientar los siguientes incrementos.
+
+<div style="page-break-after: always;"></div>
+
 ### 6.2.1.1. Sprint Planning 1.
 En este sprint presentamos el avance en la primera versión de la Landing Page y Frontend Web y Mobile de la aplicación.
 | **Aspecto**                      | **Detalles**                                                                                                           |
@@ -559,7 +564,7 @@ A continuación, se presentan las evidencias visuales del avance obtenido y un v
 Link del vídeo con explicación: https://goo.su/x5zV
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
-No hay services para este sprint porque se usó fake-api para el desarrollo del front
+No hay services para este sprint porque se usó fake-api para el desarrollo de este sprint.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
@@ -682,10 +687,7 @@ Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
     <tr><td></td><td></td><td>T5</td><td>Manejo de JWT y refresh token</td><td>Almacenamiento seguro local</td><td>4</td><td>Alexander Cantoral, Rodrigo Chirinos</td><td>Done</td></tr>
 <tr><td>US-009</td><td>Autenticación externa (Google)</td><td>T6</td><td>Integración Google OAuth</td><td>Configuración de keys y callback</td><td>6</td><td>Rodrigo Chirinos</td><td>Done</td></tr>
 <tr><td>US-008</td><td>Gestión de sesión</td><td>T7</td><td>Middleware de protección de rutas</td><td>Guard para Web y Móvil</td><td>3</td><td>UN</td><td>Done</td></tr>
-
-
 <tr><td colspan="8" style="text-align:center;background:#e0e0e0;">Gestión Básica de Plantas</td></tr>
-
 <tr><td>US-015</td><td>Mostrar plantas del usuario</td><td>T8</td><td>Crear UI y listado</td><td>Tabla / Cards con detalle básico</td><td>5</td><td>UN</td><td>Done</td></tr>
     <tr><td></td><td></td><td>T9</td><td>Endpoint GET /plants/user</td><td>Implementación en DDD + mapping</td><td>4</td><td>Ernesto Casaverde</td><td>Done</td></tr>
 <tr><td>US-011</td><td>Registro simplificado de planta</td>
@@ -723,15 +725,10 @@ Link del trello: https://trello.com/b/ZYepAQXn/1asi0572-2520-3443-plantcare
 <tr><td colspan="8" style="text-align:center;background:#e0e0e0;">IoT & Edge Computing</td></tr>
 <tr><td>US-042</td><td>Vinculación dispositivo IoT</td><td>T13</td><td>Conexión Edge</td><td>Creación de punto de acceso de configuración</td><td>6</td><td>Ernesto Casaverde</td><td>Done</td></tr>
     <tr><td></td><td></td><td>T14</td><td>Simulación de sensor</td><td>Mock de datos ambientales</td><td>3</td><td>Ernesto Casaverde, Alexander Cantoral</td><td>Done</td></tr>
-
 <tr><td>US-044</td><td>Datos en tiempo real</td><td>T15</td><td>Embeded Services Deploy</td><td>Recepción en frontend</td><td>5</td><td>Ernesto Casaverde</td><td>Done</td></tr>
-
 <tr><td colspan="8" style="text-align:center;background:#e0e0e0;">Subscripciones y Pagos</td></tr>
-
 <tr><td>US-046</td><td>Planes de subscripción</td><td>T16</td><td>UI UX selección de plan</td><td>Design e interacción</td><td>4</td><td>Alexander Cantoral</td><td>Done</td></tr>
-
 <tr><td>US-048</td><td>Cancelación de suscripción</td><td>T17</td><td>Lógica de backend con estados</td><td>API /subscriptions/cancelled</td><td>4</td><td>Alexander Cantoral</td><td>Done</td></tr>
-
   </tbody>
 </table>
 
@@ -1045,6 +1042,7 @@ Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backen
 Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service 
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## 6.3. Validation Interviews.
 
@@ -1408,6 +1406,8 @@ Versión pública: https://youtu.be/v68_VwtRPwA
 **TB2:**
 - Durante el proceso se aprendió que los pendientes deben gestionarse con mayor rigurosidad, respaldados en la documentación técnica requerida para cada componente del software. Asimismo, la distribución de tareas durante este Sprint fue adecuada y permitió un avance equilibrado, aunque se identificaron oportunidades de mejora en la coordinación general del equipo para futuros incrementos.
 
+**TF:**
+- 
 
 ## Video About-the-Team
 
@@ -1435,9 +1435,9 @@ Versión institucional / backup: https://goo.su/92KEs
 
 Los siguientes anexos complementan la documentación del proyecto, proporcionando evidencia visual, referencias técnicas y recursos utilizados durante el desarrollo del producto y la gestión del trabajo en equipo.
 
----
 
-## Anexos
+
+# Anexos
 
 ### **Anexo A – Videos de Exposiciones**
 
