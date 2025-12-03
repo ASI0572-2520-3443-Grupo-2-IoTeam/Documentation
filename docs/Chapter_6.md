@@ -1340,7 +1340,6 @@ Los servicios se encuentran documentados mediante OpenAPI y accesibles en las si
 
 Los siguientes commits corresponden al conjunto de cambios realizados durante este Sprint sobre la documentación, despliegue y exposición de Web Services:
 
-
 **IDs de commits del Backend Services**
 
 - f5dc6ce6def14f0502dcba0e2c008560d42bb2ec
@@ -1432,8 +1431,50 @@ Los siguientes commits corresponden al conjunto de cambios realizados durante es
 [![image.png](https://i.postimg.cc/XJDT26Gk/image.png)](https://postimg.cc/YGYn9Vxv)
 ---
 [![image.png](https://i.postimg.cc/4NtxhBjG/image.png)](https://postimg.cc/svjrk9VH)
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 
+Durante el sprint, se llevaron a cabo las actividades necesarias para el despliegue de los productos. A continuación, se describen las acciones realizadas para cada uno de ellos:
+
+**Landing Page:**
+La Landing Page fue desplegada en **Vercel**, plataforma seleccionada por su integración nativa con GitHub y capacidad de realizar **despliegues automáticos mediante GitHub Actions** bajo un enfoque *CI/CD*.  
+Cada actualización realizada en la rama principal genera automáticamente una nueva versión publicada, asegurando reducción en tiempos de entrega y consistencia en versiones liberadas.
+[![image.png](https://i.postimg.cc/7PddkCDJ/image.png)](https://postimg.cc/Jt3P3zsR)
+[![image.png](https://i.postimg.cc/9QjkDvDG/image.png)](https://postimg.cc/3dn16fCR)
+
+**Aplicacion web:**
+La aplicación web principal fue desplegada en **Render**, aprovechando su integración con repositorios GitHub y soporte para **deploy continuo automático**.  
+Esta aplicación realiza consumo activo de los servicios expuestos por el Backend, validando una correcta comunicación entre servicios dentro de la arquitectura distribuida.
+[![Imagen-de-Whats-App-2025-11-14-a-las-19-27-06-8cb02933.jpg](https://i.postimg.cc/xd6pF8tH/Imagen-de-Whats-App-2025-11-14-a-las-19-27-06-8cb02933.jpg)](https://postimg.cc/SXzGnS0N)
+[![image.png](https://i.postimg.cc/y8Bf1cG8/image.png)](https://postimg.cc/ZC7PjBZG)
+[![image.png](https://i.postimg.cc/fLF2DPG6/image.png)](https://postimg.cc/8JRBbZPH)
+[![image.png](https://i.postimg.cc/4y6zqFsB/image.png)](https://postimg.cc/hQGz7sJd)
+
+**Aplicación móvil:**
+
+La aplicación móvil fue empaquetada y distribuida mediante el sistema de **Releases** y conectada a **Firebase App Distribution**, permitiendo publicar versiones de prueba para usuarios internos y segmentos del público objetivo.  
+Esta estrategia facilitó la validación temprana de funcionalidades, recopilación de métricas y pruebas de experiencia de usuario real.
+
+[![image.png](https://i.postimg.cc/4dFYz2SY/image.png)](https://postimg.cc/njBVx2Zx)
+[![image.png](https://i.postimg.cc/FF8fzqc5/image.png)](https://postimg.cc/23djX022)
+[![image.png](https://i.postimg.cc/xdf8BSrt/image.png)](https://postimg.cc/mPnTFJgH)
+[![image.png](https://i.postimg.cc/GmhkgQNQ/image.png)](https://postimg.cc/1f2nfpyn)
+
+**Backend Documentation:**
+El Backend fue desplegado en **Microsoft Azure App Service**, habilitando acceso público al conjunto de servicios REST documentados con Swagger.  
+El despliegue se automatizó mediante **GitHub Actions**, implementando pipelines de integración y entrega continua, asegurando disponibilidad inmediata tras cada cambio validado.
+
+[![image.png](https://i.postimg.cc/ryNR645H/image.png)](https://postimg.cc/jCCSPLg6)
+[![image.png](https://i.postimg.cc/BQZLJvgv/image.png)](https://postimg.cc/Lh76T2Gd)
+
+**Aplicación Edge:**
+
+El Edge Service fue desplegado en **Render**, lo que permitió habilitar un punto de conexión liviano para recibir y registrar datos desde los dispositivos IoT.  
+Junto con ello, se configuró la documentación generada con Flasgger y el almacenamiento remoto de datos para habilitar pruebas integradas desde el backend.
+
+[![Imagen-de-Whats-App-2025-11-14-a-las-19-27-40-be0edc54.jpg](https://i.postimg.cc/rp7xmLpC/Imagen-de-Whats-App-2025-11-14-a-las-19-27-40-be0edc54.jpg)](https://postimg.cc/McbvPNVv)
+[![image.png](https://i.postimg.cc/4NwcccdV/image.png)](https://postimg.cc/HVcjDVbk)
+[![image.png](https://i.postimg.cc/DwMbjK1r/image.png)](https://postimg.cc/SncsR3TR)
 
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
