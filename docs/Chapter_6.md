@@ -1293,6 +1293,24 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|ca9b1438905d07358d2e218b454326c39cff8a96|fix: session leaks|-|2/12/2025|
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+
+Durante este sprint se desarrolló y consolidó la suite de pruebas automatizadas correspondiente a los componentes involucrados en las User Stories seleccionadas. La evidencia abarca los Unit Tests, Integration Tests y Acceptance Tests diseñados para validar el funcionamiento del sistema en su conjunto, asegurando la correcta interacción entre el Edge Services, el Backend Services y las interfaces del Frontend Web y Frontend Mobile. En el caso de los Unit Tests, se documentan las clases, módulos y comportamientos evaluados para garantizar la estabilidad de la lógica central. Para los Integration Tests y Acceptance Tests basados en BDD, se elaboraron archivos .feature utilizando el lenguaje Gherkin, junto con sus respectivos archivos de Steps, cubriendo los flujos clave asociados a las User Stories del sprint. Asimismo, se incluye la relación total de pruebas diseñadas, así como los repositorios, ramas y commits donde se registraron los avances en testing durante el sprint. Al final de la sección, se presenta la tabla correspondiente con los commits vinculados al trabajo de pruebas automatizadas.
+
+| User Story | Avance durante el Sprint | Testing asociado |
+|-----------|--------------------------|------------------|
+| **US-014 – Configuración de parámetros básicos** | Implementación del módulo para definir umbrales mínimos y máximos de humedad; integración con perfiles predefinidos según especie; almacenamiento persistente asociado a cada planta. | Unit tests para validación de rangos; Integration tests para guardado y lectura de parámetros; BDD con escenarios de configuración y selección de perfiles. |
+| **US-016 – Alertas esenciales de riego** | Desarrollo del sistema de alertas críticas basado en umbral de emergencia; lógica de filtrado de notificaciones menores; agrupación de alertas múltiples. | Unit tests de lógica de umbrales; Integration tests con datos de sensores; BDD para alertas críticas y comportamiento ante fluctuaciones. |
+| **US-021 – Análisis histórico con gráficos avanzados** | Implementación de gráficos interactivos multivariable; filtros por rango de fechas; optimización de consultas históricas. | Unit tests para endpoints de datos históricos; Integration tests de rendimiento; BDD para exploración y comparación de variables. |
+| **US-022 – Reportes semanales detallados** | Generación automática de reportes semanales con métricas, tendencias y anomalías; distribución interna en la plataforma. | Unit tests para generación de reportes; Integration tests para agregación de datos; BDD para validación del contenido del reporte. |
+| **US-027 – Integración automática a la comunidad** | Incorporación automática de usuarios a comunidades según intereses y especies registradas; personalización inicial del contenido. | Unit tests para reglas de asignación; Integration tests entre perfil del usuario y comunidad; BDD con escenarios de acceso inmediato y personalización. |
+| **US-028 – Feed comunitario** | Desarrollo del feed personalizado basado en especies, historial y preferencias del usuario; actualización dinámica del contenido relevante. | Unit tests del motor de recomendación; Integration tests para flujo de publicaciones; BDD para contenido contextual y actualizaciones en tiempo real. |
+| **US-029 – Compartir experiencias de cuidado** | Creación del módulo de publicaciones guiadas; categorización de consejos; sistema de validación y reputación comunitaria. | Unit tests de creación/edición; Integration tests para flujo de publicación; BDD para consejos estructurados y validación comunitaria. |
+| **US-032 – Interacción y aprendizaje comunitario** | Implementación de comentarios y reacciones; notificaciones organizadas por relevancia; construcción de hilos colaborativos. | Unit tests para comentarios y reacciones; Integration tests de notificaciones; BDD para interacción y construcción de conocimiento. |
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Testing| main |739536d4142b165ec6ef465811f46b58c413db4e|docs: us and ts|-|3/12/2025|
+
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
