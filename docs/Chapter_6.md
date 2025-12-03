@@ -1234,13 +1234,35 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|feat/authentication|f5dc6ce6def14f0502dcba0e2c008560d42bb2ec|fix(authentication): restful api rules and documentation|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|feat/plants|9fb7798db2fb0419cb3582b5c576fe20c0a3801b|feat: add new database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|feat/community|967f65cd757d3441396ba73ec51cac3b9296d5d7|feat: added reaction controller|-|29/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|feat/community|6c01dc27a0e415fc1c6e61bfe5b47eeaaa05c00b|fix: fixed comment controller|-|29/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|12586093a1be1e3ac34adf67104d86c5787b867f|fix: add versioned modules to community controllers|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|13dd7a0ab8c35566b040bef05c70b1ae51323fb0|Add or update the Azure App Service build and deployment workflow config|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|feat/plants|afe28a4fb8ca4cda6b54e3a1526466549095f980|feat: new mapping of metrics|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|1e71bc21ac6952e2f674ce129b68df87e9759b82|fix: change time America/Lima|-|1/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|25fbcbe16dde5ab0680ca6ab42b3b6618e39ac9d|fix: The time in the JSON file is also changed.|-|1/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|821ef79b0c77d2dbbec5324506959eeb6f9a787f|feat: Update ExternalSensorDataDto to align with Wokwi API structure and naming conventions|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|e6ea78ba73f5a3129e067bdca0705c40ac3d76c6|feat: Refactor sensor data models and mappings to align with updated API specifications|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|e7b237f3a5616f9bbda74666841a886218f798e2|feat: Update sensor data models and ingestion logic to align with new API specifications|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|9e4c1a6ddcef6e61b20e38b2660ded6a572cb7ff|feat: refactor user profile service|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|897218d648d6cd57e3c3a053fddb42c0521e6f93|feat: Update data ingestion scheduling and modify sensor data entity constraints|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend|develop|05497eb8d18457732fae5dda1572864302348c3a|feat: update endpoints|-|2/12/2025|
 
 **Fronend Mobile:**
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+
 
 **Edge Service:**
 
