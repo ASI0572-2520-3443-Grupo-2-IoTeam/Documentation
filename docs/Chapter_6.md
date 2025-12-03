@@ -1316,13 +1316,68 @@ Durante este sprint se desarrolló y consolidó la suite de pruebas automatizada
 En este sprint se consolidó la integración funcional del ecosistema PlantCare, logrando que los distintos componentes —Edge Services, Backend Services, Frontend Web y Frontend Mobile— operen de manera coordinada y permitan una experiencia completa de monitoreo y visualización para el usuario final. Durante este ciclo se implementaron funcionalidades clave asociadas al análisis histórico, alertas críticas, personalización de parámetros por planta y la interacción comunitaria dentro de la plataforma. La presente sección reúne las evidencias visuales del avance alcanzado, incluyendo capturas de pantalla de las principales vistas implementadas en las interfaces web y móvil, así como flujos completos que muestran la navegación, el consumo de datos en tiempo real y la interacción del usuario con las funcionalidades desarrolladas. Además, se proporciona un enlace a un video demostrativo donde se explica y se observa en ejecución el comportamiento final del sistema en este sprint.
 
 - **Ejecución del proyecto integrado**
-Validación de conexión entre frontend, backend y simulación del prototipo IoT, demostrando el flujo completo del sistema: 
+Validación de conexión entre frontend, backend y simulación del prototipo IoT, demostrando el flujo completo del sistema: https://goo.su/8ZuM4
 
 A continuación se presentan capturas de pantalla de las principales vistas implementadas y flujos ejecutados durante la demostración del Sprint, como parte del proceso de revisión y verificación técnica de los entregables.
 
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
+Durante este sprint se fortaleció la documentación técnica de los Web Services del ecosistema PlantCare, asegurando que los endpoints desarrollados y ajustados en esta iteración cuenten con especificaciones claras, actualizadas y alineadas a los estándares de OpenAPI. La presente sección reúne la evidencia correspondiente a dicho trabajo, incluyendo la relación de endpoints implementados o ampliados en el sprint, sus acciones soportadas y los verbos HTTP asociados, así como la sintaxis de invocación, parámetros esperados y ejemplos de respuestas estructuradas. También se incorporan capturas que muestran la interacción real con la documentación expuesta —ya sea en su despliegue en la nube o en entornos locales— empleando datos de muestra para validar su funcionamiento. Finalmente, se presenta el enlace al repositorio de Web Services y se detallan los commits relevantes que reflejan los avances en documentación logrados durante este sprint.
+
+Los servicios se encuentran documentados mediante OpenAPI y accesibles en las siguientes URLs:
+
+| Servicio | Link de Documentación |
+|----------|------------------------|
+| **Backend Services** | https://plantcare-awcchhb2bfg3hxgf.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/ |
+| **Edge Services** | https://plantcare-edge-service.onrender.com/apidocs/#/ |
+
+**Repositorio del Web Services**
+- Backend repository: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend
+
+**Repositorio del Edge Services**
+- Edge Service repository:  https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service
+
+Los siguientes commits corresponden al conjunto de cambios realizados durante este Sprint sobre la documentación, despliegue y exposición de Web Services:
+
+
+**IDs de commits del Backend Services**
+
+- f5dc6ce6def14f0502dcba0e2c008560d42bb2ec
+- 9fb7798db2fb0419cb3582b5c576fe20c0a3801b
+- 967f65cd757d3441396ba73ec51cac3b9296d5d7
+- 6c01dc27a0e415fc1c6e61bfe5b47eeaaa05c00b
+- 12586093a1be1e3ac34adf67104d86c5787b867f
+- 13dd7a0ab8c35566b040bef05c70b1ae51323fb0
+- afe28a4fb8ca4cda6b54e3a1526466549095f980
+- 1e71bc21ac6952e2f674ce129b68df87e9759b82
+- 25fbcbe16dde5ab0680ca6ab42b3b6618e39ac9d
+- 821ef79b0c77d2dbbec5324506959eeb6f9a787f
+- e6ea78ba73f5a3129e067bdca0705c40ac3d76c6
+- e7b237f3a5616f9bbda74666841a886218f798e2
+- 9e4c1a6ddcef6e61b20e38b2660ded6a572cb7ff
+- 897218d648d6cd57e3c3a053fddb42c0521e6f93
+- 05497eb8d18457732fae5dda1572864302348c3a
+
+
+**IDs de commits del Edge Services**
+
+- 8e294eb312aa3a728d743eb21efc10d4af421b87
+- 23005c6c5fcbfe72d5a8828ab1f91cb718d9237c
+- 47dda4f2e0e461111e0ec87d68f67f0745865f2d
+- edd36a9e205d93ef9a46e8b4edb7bd2d8af0e959
+- edd36a9e205d93ef9a46e8b4edb7bd2d8af0e959
+- 750edbd71ba08c369d5594f5812dc3f25a37006b
+- 4c36783b4f531d2ee4bcf83a5ce8c12acf7cfbc8
+- 9a7f186ba210e7b6a644579db6c7153e5c0d42af
+- f1b8a7e946be1f48568b187db8cb52177be45a86
+- 90d11c4d5122f480751ce863c3cb71fdcf9a4712
+- 3e7cde7abd60cff1147484aa3593cd5d4bbc79bb
+- eddf2f347341a3d09dc0a546a67cb7b078c7d1ae
+- 87bd972a7dde646c2375ff65a9a42c819cf53cab
+- 61b2b3cf577bff8b366b40cbea2b9384654eb2d8
+- 1b6b6d5b0e42c9e2f1f4723238c61f2d9ce4074d
+- ca9b1438905d07358d2e218b454326c39cff8a96
 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
