@@ -1044,6 +1044,51 @@ Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantc
 ---
 <div style="page-break-after: always;"></div>
 
+### 6.2.3. Sprint 3
+
+En este sprint se consolidó el trabajo desarrollado a lo largo del proyecto y se completaron las versiones finales de todos los componentes que conforman la solución: el Edge Services, el Backend Services, el Frontend Web y el Frontend Mobile. Durante este ciclo se integraron, estabilizaron y validaron todas las funcionalidades previstas, cerrando brechas técnicas, corrigiendo incidencias pendientes y asegurando la coherencia operativa entre los distintos servicios. Asimismo, se realizaron las actividades necesarias para dejar lista la versión final del producto dentro del ciclo de vida del proyecto, garantizando su funcionamiento integral, su despliegue en los entornos definidos y su disponibilidad para evaluación y uso final.
+
+#### 6.2.3.1. Sprint Planning 3.
+
+| **Aspecto**                      | **Detalles**                                                                                                           |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**   |                                                                                                                        |
+| **Date**                         | 27/10/2025                                                                                                             |
+| **Time**                         | 11:00 am                                                                                                                |
+| **Location**                     | La reunión se realizó de forma presencial                                                  |
+| **Prepared By**                  | IoTeam                                                                                                             |
+| **Attendees (to planning meeting)** |- Casaverde De La Cruz, Ernesto David <br> - Cantoral Sedamano, Alexander Alberto<br> -Chirinos Zúñiga, Rodrigo Manuel <br> - Hurtado Palomino, Francisco Juan<br> -Reyes Trujillano, Fabian Alonso<br>- Zevallos Linares, Alessandro Nettoz|
+|Sprint 2 Review Summary| Durante el Sprint 2 se alcanzaron avances significativos en los cuatro componentes del sistema. El Backend Services consolidó sus principales endpoints y estableció la integración estable con la base de datos, mientras que el Edge Services logró operar de forma continua, procesando y enviando datos hacia el backend sin interrupciones. En paralelo, el Frontend Web incorporó las primeras vistas funcionales orientadas a la visualización y gestión de información, y el Frontend Mobile completó las pantallas base y flujos iniciales de navegación. El equipo manifestó conformidad con el progreso logrado, destacando que los incrementos obtenidos mostraron coherencia entre servicios y evidenciaron la madurez creciente de la plataforma. El Product Owner expresó satisfacción con el avance, resaltando la claridad de los componentes entregados y validando que los resultados estaban alineados con las expectativas del proyecto.|
+|Sprint 2 Retrospective Summary| A nivel de retrospectiva, el equipo coincidió en que la comunicación y la coordinación técnica entre miembros mejoró respecto al sprint previo, especialmente en la integración entre Edge y Backend. Sin embargo, se identificaron oportunidades de mejora relacionadas con la gestión del tiempo y la anticipación de dependencias entre servicios, ya que algunos bloqueos se resolvieron tardíamente. También se destacó la necesidad de reforzar la documentación interna y estandarizar ciertos criterios de desarrollo para agilizar el trabajo conjunto. En general, el grupo reconoció fortalezas en la colaboración y disposición, pero acordó implementar ajustes para optimizar la eficiencia durante el Sprint 3.|
+| **Sprint Goal & User Stories**   |                                                            |
+| **Sprint Goal** | **Our focus is on** enabling users to visualize real-time plant health data collected from physical sensors through an integrated end-to-end experience. **We believe it delivers** timely insights and better decision-making to home gardeners and plant owners who rely on the platform to monitor their plants. **This will be confirmed when** users can access the web or mobile app and see updated sensor readings (humidity, temperature, soil moisture) captured by the Edge device and processed by the backend, with refresh intervals under one minute.|
+| **Sprint Velocity**            |  Para este sprint, el equipo estableció una capacidad de 35 Story Points, tomando como referencia el rendimiento real obtenido en los sprints anteriores y considerando que este ciclo incluye actividades de consolidación y cierre de versiones finales.                                                               |
+| **Sum of Story Points**          | La suma total de los Story Points correspondientes a las User Stories seleccionadas para el Sprint 3 asciende a 35 Story Points, manteniéndose dentro de la capacidad planificada y asegurando que el equipo pueda completar todas las tareas comprometidas para entregar el producto final. |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators.
+
+En este sprint se identificaron los aspectos clave del producto que requerían una coordinación más estrecha entre los miembros del equipo, con el fin de asegurar un desarrollo alineado, eficiente y orientado a los entregables del ciclo. Para ello se elaboró la Leadership-and-Collaboration Matrix (LACX), la cual permite definir, para cada aspecto funcional involucrado en el sprint —incluyendo autenticación e identidad, gestión de plantas, análisis y reportes, comunidad y suscripción— quién asume el rol de líder y quiénes participan como colaboradores. Esta matriz proporciona claridad sobre responsabilidades, facilita la comunicación interna y refuerza el enfoque colectivo en los componentes del producto que contribuyen directamente al Sprint Goal. A continuación, se presenta la matriz correspondiente a este sprint.
+
+| Team Member (Apellido, Nombre) | GitHub Username |Auth & Indentity<br>Leader (L) /Collaborator (C)| Plant Management<br>Leader (L) /Collaborator (C)| Analysis & Reporting <br>Leader (L) /Collaborator (C)| Community<br>Leader (L) /Collaborator (C)|Subscription<br>Leader (L) /Collaborator (C)|
+|-------------|---------|--------------|-------|-----|----|---|
+|Casaverde De La Cruz, Ernesto David| ErnestGreenhouse| - | L| -|-|
+|Cantoral Sedamano, Alexander Alberto| AlexlmL| - | C |-|C|L|
+|Chirinos Zúñiga, Rodrigo Manuel | zrodrigochirinos|L|-|-|-|-|
+|Reyes Trujillano, Fabian Alonso| FabianTG25| -|-|L|-|-|
+|Zevallos Linares, Alessandro Netto | OutBreakAZL |C|C|-|-|-|
+|Hurtado Palomino, Francisco Juan | franmanic2|-|-|-|L|
+
+#### 6.2.3.3. Sprint Backlog 3.
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review.
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.6. Execution Evidence for Sprint Review.
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
@@ -1407,7 +1452,7 @@ Versión pública: https://youtu.be/v68_VwtRPwA
 - Durante el proceso se aprendió que los pendientes deben gestionarse con mayor rigurosidad, respaldados en la documentación técnica requerida para cada componente del software. Asimismo, la distribución de tareas durante este Sprint fue adecuada y permitió un avance equilibrado, aunque se identificaron oportunidades de mejora en la coordinación general del equipo para futuros incrementos.
 
 **TF:**
-- 
+- En esta entrega se alcanzó con casi todas las us establecidas en el capítulo. A pesar de las dificultades se logró tener una versión estable y casi completa de todos los bounded contexts. A su vez se concretó con todos los items propuestos para la entrega en cuestión de productos e informe.
 
 ## Video About-the-Team
 
