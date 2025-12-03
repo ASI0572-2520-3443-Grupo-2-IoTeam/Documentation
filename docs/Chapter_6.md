@@ -1209,7 +1209,7 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/LandingPage| main | ||-|3/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/LandingPage| main | 11884225c030ca962b41b32e09ea2c205e672ecc|chore: new release|-|3/12/2025|
 
 **Frontend Web** 
 
@@ -1440,15 +1440,15 @@ Durante el sprint, se llevaron a cabo las actividades necesarias para el desplie
 La Landing Page fue desplegada en **Vercel**, plataforma seleccionada por su integración nativa con GitHub y capacidad de realizar **despliegues automáticos mediante GitHub Actions** bajo un enfoque *CI/CD*.  
 Cada actualización realizada en la rama principal genera automáticamente una nueva versión publicada, asegurando reducción en tiempos de entrega y consistencia en versiones liberadas.
 [![image.png](https://i.postimg.cc/7PddkCDJ/image.png)](https://postimg.cc/Jt3P3zsR)
-[![image.png](https://i.postimg.cc/9QjkDvDG/image.png)](https://postimg.cc/3dn16fCR)
+[![image.png](https://i.postimg.cc/cHmQZdM5/image.png)](https://postimg.cc/zbyLFZQn)
 
 **Aplicacion web:**
 La aplicación web principal fue desplegada en **Render**, aprovechando su integración con repositorios GitHub y soporte para **deploy continuo automático**.  
 Esta aplicación realiza consumo activo de los servicios expuestos por el Backend, validando una correcta comunicación entre servicios dentro de la arquitectura distribuida.
 [![Imagen-de-Whats-App-2025-11-14-a-las-19-27-06-8cb02933.jpg](https://i.postimg.cc/xd6pF8tH/Imagen-de-Whats-App-2025-11-14-a-las-19-27-06-8cb02933.jpg)](https://postimg.cc/SXzGnS0N)
-[![image.png](https://i.postimg.cc/y8Bf1cG8/image.png)](https://postimg.cc/ZC7PjBZG)
-[![image.png](https://i.postimg.cc/fLF2DPG6/image.png)](https://postimg.cc/8JRBbZPH)
-[![image.png](https://i.postimg.cc/4y6zqFsB/image.png)](https://postimg.cc/hQGz7sJd)
+[![image.png](https://i.postimg.cc/TPydf0j6/image.png)](https://postimg.cc/sBrdJp06)
+[![image.png](https://i.postimg.cc/44Pr2ttm/image.png)](https://postimg.cc/Z097CWwS)
+[![image.png](https://i.postimg.cc/zBJxTtxM/image.png)](https://postimg.cc/67mVX0JL)
 
 **Aplicación móvil:**
 
@@ -1458,24 +1458,23 @@ Esta estrategia facilitó la validación temprana de funcionalidades, recopilaci
 [![image.png](https://i.postimg.cc/4dFYz2SY/image.png)](https://postimg.cc/njBVx2Zx)
 [![image.png](https://i.postimg.cc/FF8fzqc5/image.png)](https://postimg.cc/23djX022)
 [![image.png](https://i.postimg.cc/xdf8BSrt/image.png)](https://postimg.cc/mPnTFJgH)
-[![image.png](https://i.postimg.cc/GmhkgQNQ/image.png)](https://postimg.cc/1f2nfpyn)
+[![image.png](https://i.postimg.cc/DyWBQbcy/image.png)](https://postimg.cc/Xpbf4qhT)
+
 
 **Backend Documentation:**
 El Backend fue desplegado en **Microsoft Azure App Service**, habilitando acceso público al conjunto de servicios REST documentados con Swagger.  
 El despliegue se automatizó mediante **GitHub Actions**, implementando pipelines de integración y entrega continua, asegurando disponibilidad inmediata tras cada cambio validado.
 
-[![image.png](https://i.postimg.cc/ryNR645H/image.png)](https://postimg.cc/jCCSPLg6)
-[![image.png](https://i.postimg.cc/BQZLJvgv/image.png)](https://postimg.cc/Lh76T2Gd)
-
+[![image.png](https://i.postimg.cc/hj6MNDDG/image.png)](https://postimg.cc/Kk7nMygX)
+[![image.png](https://i.postimg.cc/0NGkHjPt/image.png)](https://postimg.cc/qtRHNktn)
 **Aplicación Edge:**
 
 El Edge Service fue desplegado en **Render**, lo que permitió habilitar un punto de conexión liviano para recibir y registrar datos desde los dispositivos IoT.  
 Junto con ello, se configuró la documentación generada con Flasgger y el almacenamiento remoto de datos para habilitar pruebas integradas desde el backend.
 
 [![Imagen-de-Whats-App-2025-11-14-a-las-19-27-40-be0edc54.jpg](https://i.postimg.cc/rp7xmLpC/Imagen-de-Whats-App-2025-11-14-a-las-19-27-40-be0edc54.jpg)](https://postimg.cc/McbvPNVv)
-[![image.png](https://i.postimg.cc/4NwcccdV/image.png)](https://postimg.cc/HVcjDVbk)
-[![image.png](https://i.postimg.cc/DwMbjK1r/image.png)](https://postimg.cc/SncsR3TR)
-
+[![image.png](https://i.postimg.cc/Fzk3S0Q9/image.png)](https://postimg.cc/GTr4w82N)
+[![image.png](https://i.postimg.cc/4NtxhBjG/image.png)](https://postimg.cc/svjrk9VH)
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
