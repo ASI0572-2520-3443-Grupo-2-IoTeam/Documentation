@@ -1080,6 +1080,127 @@ En este sprint se identificaron los aspectos clave del producto que requerían u
 
 #### 6.2.3.3. Sprint Backlog 3.
 
+El Sprint Backlog correspondiente a este sprint reúne el conjunto de User Stories y tareas necesarias para alcanzar el objetivo planteado, orientado a habilitar la experiencia integrada de monitoreo en tiempo real para los usuarios del ecosistema PlantCare. En esta sección se presenta el estado del board utilizado para la gestión del trabajo del equipo, mostrando la organización de los ítems comprometidos y su distribución a lo largo del flujo de trabajo definido. Asimismo, se incluye la tabla con los User Stories seleccionados para el Sprint 3 y los Work Items que resultan de su descomposición, junto con aquellas tareas adicionales requeridas para cumplir restricciones técnicas o funcionales del proyecto. A continuación se muestran el screenshot del board y el enlace público correspondiente.
+
+[![image.png](https://i.postimg.cc/P5P97W7W/image.png)](https://postimg.cc/gxbgXZmj)
+
+Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare 
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td colspan="7">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status (To-do / In-Process / To-Review / Done)</td>
+        </tr>
+        <!-- Fila de separación -->
+        <tr>
+            <td colspan="8" style="text-align: center; background-color: #e0e0e0;">Work-Item / Tasks</td>
+        </tr>
+        <tr>
+    <td>US-016</td>
+    <td>Alertas esenciales de riego</td>
+    <td>03</td>
+    <td>Implementación de notificaciones críticas</td>
+    <td>El sistema envía alertas únicamente cuando el nivel de humedad cae por debajo del umbral configurado</td>
+    <td>01</td>
+    <td>Ernesto Casaverde -  Alexander Cantoral</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td>US-014</td>
+    <td>Configuración de parámetros básicos</td>
+    <td>05</td>
+    <td>Formulario de parámetros por planta</td>
+    <td>El usuario puede definir y guardar límites esenciales (humedad, temperatura, riego) por cada planta</td>
+    <td>02</td>
+    <td>Ernesto Casaverde</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td>US-021</td>
+    <td>Análisis histórico con gráficos avanzados</td>
+    <td>08</td>
+    <td>Módulo de visualización avanzada</td>
+    <td>Se muestran gráficos interactivos de tendencias históricas con filtros y rangos personalizados</td>
+    <td>03</td>
+    <td>Fabian Reyes</td>
+    <td>To-Review</td>
+</tr>
+
+<tr>
+    <td>US-022</td>
+    <td>Reportes semanales detallados</td>
+    <td>05</td>
+    <td>Generación automática de reportes</td>
+    <td>El usuario recibe un reporte semanal consolidado vía plataforma con métricas clave de sus plantas</td>
+    <td>02</td>
+    <td>Fabian Reyes</td>
+    <td>To-Review</td>
+</tr>
+
+<tr>
+    <td>US-027</td>
+    <td>Integración automática a la comunidad</td>
+    <td>04</td>
+    <td>Asignación automática de grupos</td>
+    <td>El usuario recién registrado se vincula automáticamente a comunidades según sus intereses configurados</td>
+    <td>02</td>
+    <td>Francisco Hurtado<</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td>US-028</td>
+    <td>Feed comunitario</td>
+    <td>06</td>
+    <td>Implementación del feed personalizado</td>
+    <td>El usuario visualiza publicaciones relevantes basadas en sus intereses y actividad reciente</td>
+    <td>03</td>
+    <td>Francisco Hurtado<</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td>US-029</td>
+    <td>Compartir experiencias de cuidado</td>
+    <td>04</td>
+    <td>Módulo de creación de publicaciones</td>
+    <td>Los usuarios pueden crear publicaciones y compartir técnicas o aprendizajes de cuidado</td>
+    <td>02</td>
+    <td>Francisco Hurtado<</td>
+    <td>To-Review</td>
+</tr>
+
+<tr>
+    <td>US-032</td>
+    <td>Interacción y aprendizaje comunitario</td>
+    <td>05</td>
+    <td>Sistema de comentarios y reacciones</td>
+    <td>Los usuarios pueden comentar y reaccionar a publicaciones dentro de la comunidad</td>
+    <td>02</td>
+    <td>Francisco Hurtado<</td>
+    <td>To-Review</td>
+</tr>
+        </tr>
+</table>
 
 #### 6.2.3.4. Development Evidence for Sprint Review.
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
