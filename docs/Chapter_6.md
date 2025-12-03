@@ -1203,6 +1203,51 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
 </table>
 
 #### 6.2.3.4. Development Evidence for Sprint Review.
+
+
+**Landing Page:**
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/LandingPage| main | ||-|3/12/2025|
+
+**Frontend Web** 
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| feat/community |5ea1f392099a65fb2bd2bcfc4bdc1fd81bc0ed83  | feat: implement community feature with feed, welcome dialog, and post creation, and update firebase dependency. ||29/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| feat/community | c3ed1206fe9692b2235e18727016810400430e98 | feat: introduce community feature with components for posts, comments, and reactions, along with a dedicated service.||29/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| feat/community |c3ed1206fe9692b2235e18727016810400430e98  | feat: introduce community feature with components for posts, comments, and reactions, along with a dedicated service.||29/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| feat/community | c5e3cf802d199bcb733183d46649d1b0e036afb4 |fix: add domain driven design structure| |30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb|feat/plants |647d6d806a8777bd0a1da582f86764b0a20ddd1b | feat: Add new metrics plants | |30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| feat/plants | 21feae0d9fb548a5f4ba916710d3ac1c21a1185b |feat: Add watering acctions| |1/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb|  develop | 78a88575ba7efb6d489f9b7272f73550278d525e |feat: Update sensor data mapping and backend format for consistency| |2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop | c25ca0c2c7f6329f706ef3647e959e9e0eb6959c | feat:Refactor profile||2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop |a08d854f1e8e715d19f14cf297e3f613bc5dbc94  |fix: profile store ||2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop |d4e26f246ca88b86fab6c59b5b8235e3bbcce7c0  |fix: logo at startup| |2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop | 09d724536b856dd5bf50e5e21be6f301a33a4d21 |fix: We fixed recent bugs and made architectural improvements| |2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop|73dbd3888d9b1218d7f03d8f7c164ae6f63e2c24 | fix: User interface improvements || 2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop| ee3ab054d5da21c2f357d9d2bad8ccf2c57cd9bb| feat: update endpoints | |2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb| develop | 8da19dbe01c827b3496cef7e98b19cd423f3b1e3 |fix: enhance data processing and mapping in AnalyticsService and AnalyticsAssembler| |3/12/2025|
+
+**Backend:**
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend||||-|/2025|
+
+**Fronend Mobile:**
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
+
+**Edge Service:**
+
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|||-|/2025|
+
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
