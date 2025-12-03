@@ -77,17 +77,15 @@ A continuación, se presentan capturas obtenidas desde los analíticos del repos
 <div style="page-break-after: always;"></div>
 
 #### **Contributors Activity**
-[![image.png](https://i.postimg.cc/vHmHBJZD/image.png)](https://postimg.cc/8sqVXnWV)
+[![image.png](https://i.postimg.cc/ThMcttRy/image.png)](https://postimg.cc/RJdfFQJ9)
 <div style="page-break-after: always;"></div>
 
 #### **Commits per Author**
-[![image.png](https://i.postimg.cc/JzvhSp8x/image.png)](https://postimg.cc/DSQFXd84)
+[![image.png](https://i.postimg.cc/VsbpWTgs/image.png)](https://postimg.cc/JtMp1pSS)
 <div style="page-break-after: always;"></div>
 
 #### **Network Graph (Ramas y Merges)**
-[![image.png](https://i.postimg.cc/LXT24Dd4/image.png)](https://postimg.cc/34dPngJz)
-
-
+[![image.png](https://i.postimg.cc/x8rsZf5y/image.png)](https://postimg.cc/MMDbM8hv)
 
 ### **Interpretación del Análisis**
 El análisis de contribuciones evidencia que todos los miembros participaron activamente en la construcción del informe. La estrategia mediante ramas por capítulos permitió:
