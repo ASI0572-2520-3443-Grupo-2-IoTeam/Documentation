@@ -1934,8 +1934,8 @@ Los siguientes anexos complementan la documentación del proyecto, proporcionand
 |---------|--------|
 | **Web Application Prototype** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/ER2OB0Z8ZYxDgETMe6z03FcBhrHLRdMAlxvaR94OMswaEw |
 | **Mobile Application Prototype** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EUp1F0x6NpNGmcnWxEIED-kBeIuYPmkCeOyooGUNKfKkWQ |
-| **IoT Prototype (Wokwi)** | https://wokwi.com/projects/447644125509635073 |
-| **IoT + Edge Services Simulation** | https://wokwi.com/projects/446905492492819457 |
+| **IoT Prototype (Wokwi)** |https://wokwi.com/projects/449362254496559105 |
+| **IoT + Edge Services Simulation** | https://wokwi.com/projects/449362254496559105|
 
 ---
 
