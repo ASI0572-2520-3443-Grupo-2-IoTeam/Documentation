@@ -1069,6 +1069,8 @@ En este sprint se consolidó el trabajo desarrollado a lo largo del proyecto y s
 
 En este sprint se identificaron los aspectos clave del producto que requerían una coordinación más estrecha entre los miembros del equipo, con el fin de asegurar un desarrollo alineado, eficiente y orientado a los entregables del ciclo. Para ello se elaboró la Leadership-and-Collaboration Matrix (LACX), la cual permite definir, para cada aspecto funcional involucrado en el sprint —incluyendo autenticación e identidad, gestión de plantas, análisis y reportes, comunidad y suscripción— quién asume el rol de líder y quiénes participan como colaboradores. Esta matriz proporciona claridad sobre responsabilidades, facilita la comunicación interna y refuerza el enfoque colectivo en los componentes del producto que contribuyen directamente al Sprint Goal. A continuación, se presenta la matriz correspondiente a este sprint.
 
+<div style="page-break-after: always;"></div>
+
 | Team Member (Apellido, Nombre) | GitHub Username |Auth & Indentity<br>Leader (L) /Collaborator (C)| Plant Management<br>Leader (L) /Collaborator (C)| Analysis & Reporting <br>Leader (L) /Collaborator (C)| Community<br>Leader (L) /Collaborator (C)|Subscription<br>Leader (L) /Collaborator (C)|
 |-------------|---------|--------------|-------|-----|----|---|
 |Casaverde De La Cruz, Ernesto David| ErnestGreenhouse| - | L| -|-|
@@ -1082,9 +1084,11 @@ En este sprint se identificaron los aspectos clave del producto que requerían u
 
 El Sprint Backlog correspondiente a este sprint reúne el conjunto de User Stories y tareas necesarias para alcanzar el objetivo planteado, orientado a habilitar la experiencia integrada de monitoreo en tiempo real para los usuarios del ecosistema PlantCare. En esta sección se presenta el estado del board utilizado para la gestión del trabajo del equipo, mostrando la organización de los ítems comprometidos y su distribución a lo largo del flujo de trabajo definido. Asimismo, se incluye la tabla con los User Stories seleccionados para el Sprint 3 y los Work Items que resultan de su descomposición, junto con aquellas tareas adicionales requeridas para cumplir restricciones técnicas o funcionales del proyecto. A continuación se muestran el screenshot del board y el enlace público correspondiente.
 
-[![image.png](https://i.postimg.cc/P5P97W7W/image.png)](https://postimg.cc/gxbgXZmj)
+[![image.png](https://i.postimg.cc/qB966tDB/image.png)](https://postimg.cc/bd9wKvj4)
 
 Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc42e45b59fc718edf5cbbc642a2966B6FD6/1asi0572-2520-3443-plantcare 
+
+<div style="page-break-after: always;"></div>
 
 <table>
     <thead>
@@ -1122,7 +1126,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Ernesto Casaverde -  Alexander Cantoral</td>
     <td>Done</td>
 </tr>
-
 <tr>
     <td>US-014</td>
     <td>Configuración de parámetros básicos</td>
@@ -1133,7 +1136,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Ernesto Casaverde</td>
     <td>Done</td>
 </tr>
-
 <tr>
     <td>US-021</td>
     <td>Análisis histórico con gráficos avanzados</td>
@@ -1144,7 +1146,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Fabian Reyes</td>
     <td>To-Review</td>
 </tr>
-
 <tr>
     <td>US-022</td>
     <td>Reportes semanales detallados</td>
@@ -1155,7 +1156,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Fabian Reyes</td>
     <td>To-Review</td>
 </tr>
-
 <tr>
     <td>US-027</td>
     <td>Integración automática a la comunidad</td>
@@ -1166,7 +1166,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Francisco Hurtado<</td>
     <td>Done</td>
 </tr>
-
 <tr>
     <td>US-028</td>
     <td>Feed comunitario</td>
@@ -1177,7 +1176,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Francisco Hurtado<</td>
     <td>Done</td>
 </tr>
-
 <tr>
     <td>US-029</td>
     <td>Compartir experiencias de cuidado</td>
@@ -1188,7 +1186,6 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
     <td>Francisco Hurtado<</td>
     <td>To-Review</td>
 </tr>
-
 <tr>
     <td>US-032</td>
     <td>Interacción y aprendizaje comunitario</td>
@@ -1478,6 +1475,25 @@ Junto con ello, se configuró la documentación generada con Flasgger y el almac
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
+Durante este Sprint, el equipo trabajó de manera coordinada en las actividades de implementación, asegurando la participación activa de todos los integrantes en cada uno de los productos priorizados: Landing Page, Web Services y Aplicaciones. La colaboración se reflejó en la constante interacción a través de GitHub, donde se evidencia un flujo continuo de commits, revisiones y contribuciones distribuidas entre los miembros del equipo. Las capturas de los analíticos de actividad y gráficos de participación muestran un equilibrio adecuado en la carga de trabajo y una comunicación efectiva durante el desarrollo. A partir de estos indicadores, el equipo interpreta que la dinámica colaborativa fue sólida, con avances sincronizados y un apoyo transversal en las tareas técnicas, permitiendo cumplir los objetivos del Sprint con calidad y coherencia entre los distintos componentes implementados.
+
+**Aplicación Web**
+[![image.png](https://i.postimg.cc/wB3GrbXt/image.png)](https://postimg.cc/f3nCtCgZ)
+[![image.png](https://i.postimg.cc/ry9NSNWF/image.png)](https://postimg.cc/w37NzJ0S)
+Link del repositorio:https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendWeb
+
+**Aplicación Móvil**
+[![image.png](https://i.postimg.cc/2yHWgTFy/image.png)](https://postimg.cc/0KwrwY41)
+[![image.png](https://i.postimg.cc/3xGyZ36k/image.png)](https://postimg.cc/MnWK6Jzw)
+Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile
+**Backend Services**
+[![image.png](https://i.postimg.cc/15kXXLtx/image.png)](https://postimg.cc/2VxrX9hT)
+[![image.png](https://i.postimg.cc/cJss8ZNS/image.png)](https://postimg.cc/75WvpF6s)
+Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Backend
+**Edge Services**
+[![image.png](https://i.postimg.cc/XJ17bPhm/image.png)](https://postimg.cc/DJsKQx7P)
+[![image.png](https://i.postimg.cc/rsSVrpsH/image.png)](https://postimg.cc/8fzg8Nhd)
+Link del repositorio: https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service
 
 ## 6.3. Validation Interviews.
 
@@ -1724,7 +1740,7 @@ En la aplicación móvil encontró la información bien estructurada y fácil de
 
 En la versión web destacó la navegación intuitiva, la claridad de los títulos y la organización de los datos. Apreció especialmente los gráficos de humedad y riego, así como la posibilidad de visualizar varias plantas en una pantalla más amplia. Señaló que la configuración avanzada resultó un poco técnica, pero percibió coherencia visual y funcional respecto a la aplicación móvil.
 
----
+<div style="page-break-after: always;"></div>
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
@@ -1826,6 +1842,8 @@ Versión institucional: https://goo.su/NFZgK
 
 Versión pública: https://youtu.be/v68_VwtRPwA 
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones:
@@ -1870,7 +1888,7 @@ Versión institucional / backup: https://goo.su/92KEs
 
 Los siguientes anexos complementan la documentación del proyecto, proporcionando evidencia visual, referencias técnicas y recursos utilizados durante el desarrollo del producto y la gestión del trabajo en equipo.
 
-
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
