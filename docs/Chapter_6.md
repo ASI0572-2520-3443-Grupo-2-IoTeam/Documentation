@@ -1312,7 +1312,19 @@ Durante este sprint se desarrolló y consolidó la suite de pruebas automatizada
 |https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/Testing| main |739536d4142b165ec6ef465811f46b58c413db4e|docs: us and ts|-|3/12/2025|
 
 #### 6.2.3.6. Execution Evidence for Sprint Review.
+
+En este sprint se consolidó la integración funcional del ecosistema PlantCare, logrando que los distintos componentes —Edge Services, Backend Services, Frontend Web y Frontend Mobile— operen de manera coordinada y permitan una experiencia completa de monitoreo y visualización para el usuario final. Durante este ciclo se implementaron funcionalidades clave asociadas al análisis histórico, alertas críticas, personalización de parámetros por planta y la interacción comunitaria dentro de la plataforma. La presente sección reúne las evidencias visuales del avance alcanzado, incluyendo capturas de pantalla de las principales vistas implementadas en las interfaces web y móvil, así como flujos completos que muestran la navegación, el consumo de datos en tiempo real y la interacción del usuario con las funcionalidades desarrolladas. Además, se proporciona un enlace a un video demostrativo donde se explica y se observa en ejecución el comportamiento final del sistema en este sprint.
+
+- **Ejecución del proyecto integrado**
+Validación de conexión entre frontend, backend y simulación del prototipo IoT, demostrando el flujo completo del sistema: 
+
+A continuación se presentan capturas de pantalla de las principales vistas implementadas y flujos ejecutados durante la demostración del Sprint, como parte del proceso de revisión y verificación técnica de los entregables.
+
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
