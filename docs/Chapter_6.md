@@ -1254,21 +1254,43 @@ Link del board: https://trello.com/invite/b/68c86d7198904c22ad495559/ATTI1228cc4
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile||||-|/2025|
-
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|65b031b7f76ac48ae90a1c57f86ba88570d3d1ad|chore: ddd arquitecture|Todo: fix plants and iam bc folders|26/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|cc13c1bf46f877a26cbb768c12b2266a9c94fcf2|feat: Reorganize the iam structure and add best practices|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|62959050d5268732621ea9fd1e0518c0b2b581cb|fix: approuter problems|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|feat/community|7e0b418148bb07886398fe235c258ce0b97b51cf|feat: Add community feature with new models, screens, widgets, and repositories.|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|feat/plants|84e3373a5e6aec683e2e0c586a2c95c9e2f5cedf|feat: Connect New metrics mapping and code quality improvement|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|609ef0e57e28ac0d13a9e75093118ca3d1f30f3f|fix: visual improvement|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|d61df86d5a2f60d22ea11ecf0c3de794bd850ca1|fix: Display bugs metrics|-|30/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|b7aff69b78b580b49fe4a9dc2dc473c8379d2435|feat: Add post and delete|-|1/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|cdc8e1bf8563dc74e99ce46671e1a73765641001|feat: add profile|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|23c057f289594650bae4e9a688f9acbf8f9fbbd2|feat: update endpoints|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|7e9ffade4fe8cf3d9adb7a3d561bda61edf43fe7|feat: add reports view and analytics provider|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|04dfaa87ca10c7d8e11a4e22ba247893df729fd5|feat: implement analytics use cases and models for reports and sensor data|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|7c086c69d1ed49d79906dad5b11a3c15a79cefc0|fix: profile endpoints|-|2/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|0892f09786ee6d46234da301602aa9d778786047|fix owerflow|-|3/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|743678d85b4e152aad6cc64c54cb6ea3607eb795|fix: update the dashboard|-|3/12/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile|develop|600ec09aaec721aa5f027b60c34f882fdce0adf8|feat: User interface improvements and bug fixes|-|3/12/2025|
 
 **Edge Service:**
 
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
-|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|||-|/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|8e294eb312aa3a728d743eb21efc10d4af421b87|feat: change json plant iot|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|23005c6c5fcbfe72d5a8828ab1f91cb718d9237c|feat: Add Database railway|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|47dda4f2e0e461111e0ec87d68f67f0745865f2d|fix: database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|edd36a9e205d93ef9a46e8b4edb7bd2d8af0e959|fix : Cors flask|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|edd36a9e205d93ef9a46e8b4edb7bd2d8af0e959|fix : Cors flask|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|750edbd71ba08c369d5594f5812dc3f25a37006b|fix: swagger error|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|4c36783b4f531d2ee4bcf83a5ce8c12acf7cfbc8|fix : post and get|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|9a7f186ba210e7b6a644579db6c7153e5c0d42af|fix : url database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|f1b8a7e946be1f48568b187db8cb52177be45a86|fix: database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|90d11c4d5122f480751ce863c3cb71fdcf9a4712|fix: fix htpps|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|3e7cde7abd60cff1147484aa3593cd5d4bbc79bb|fix: change database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|eddf2f347341a3d09dc0a546a67cb7b078c7d1ae|fix: database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|87bd972a7dde646c2375ff65a9a42c819cf53cab|fix: create database|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|61b2b3cf577bff8b366b40cbea2b9384654eb2d8|fix: Simplify database connection - direct connection only|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|1b6b6d5b0e42c9e2f1f4723238c61f2d9ce4074d|fix: enable pool_pre_ping, pool_recycle=300 and timeouts|-|27/11/2025|
+|https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/plantcare-edge-service|main|ca9b1438905d07358d2e218b454326c39cff8a96|fix: session leaks|-|2/12/2025|
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.3.6. Execution Evidence for Sprint Review.
