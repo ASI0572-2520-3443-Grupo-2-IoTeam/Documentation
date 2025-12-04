@@ -36,14 +36,39 @@
 
 <div style="page-break-after: always;"></div>
 
-## Registro de Versiones
+## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  | **Autor/es**                                                                                                                                                                                                                                                           | **Descripción y Modificación** |
+| **Versión** | **Fecha**  | **Autor**                                                                                                                                                                                                                                                           | **Descripción y Modificación** |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| 1.0         | 19/09/2025 | - Casaverde De La Cruz, Ernesto David <br>- Cantoral Sedamano, Alexander Alberto <br>- Chirinos Zúñiga, Rodrigo Manuel <br>- Francisco Juan Hurtado Palomino<br>- Fabian Alonso Reyes Trujillano <br>- Renzo Cesar Silva Morales <br>- Alessandro Netto Zevallos Linares | Desarrollo del capítulo I,II, III y IV |
-| 1.1         | 9/10/2025 | - Casaverde De La Cruz, Ernesto David <br>- Cantoral Sedamano, Alexander Alberto <br>- Chirinos Zúñiga, Rodrigo Manuel <br>- Francisco Juan Hurtado Palomino<br>- Fabian Alonso Reyes Trujillano <br>- Renzo Cesar Silva Morales <br>- Alessandro Netto Zevallos Linares | - Desarrollo del capítulo V y VI<br>Primera versión de la Landing Page y FrontendWeb |
-| 1.2         | 15/11/2025 | - Casaverde De La Cruz, Ernesto David <br>- Cantoral Sedamano, Alexander Alberto <br>- Chirinos Zúñiga, Rodrigo Manuel<br>- Fabian Alonso Reyes Trujillano <br>- Alessandro Netto Zevallos Linares | - Sprint 2. Entrevistas de validación. Primera versión de FrontenMobile y Backend desplegado. Segunda versión de LP y FrontendWeb |
-| 1.3 | 29/11/2025| -- Casaverde De La Cruz, Ernesto David <br>- Cantoral Sedamano, Alexander Alberto <br>- Chirinos Zúñiga, Rodrigo Manuel<br>- Fabian Alonso Reyes Trujillano <br>- Alessandro Netto Zevallos Linares|- Correciones referentes a versiones anteriores. <br>- Mejoras al orden de cada capítulo.<br>-Sprint 3 versión final del producto. |  
+| 1.0 | 05/09/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó la estructura a completar para la TB1. |
+| 1.5  | 08/09/2025 | Casaverde De La Cruz, Ernesto David | Se completó parte del capítulo I. |
+| 2    | 10/09/2025 | Chirinos Zúñiga, Rodrigo Manuel | Se completó parte del capítulo II. |
+| 2.5    | 12/09/2025 | Fabian Alonso Reyes Trujillano | Se completó parte del capítulo III. |
+| 3    | 13/09/2025 | Francisco Juan Hurtado Palomino | Se actualizó algunos puntos capítulo III. |
+| 3.5  | 15/09/2025 | Renzo Cesar Silva Morales | Se actualizó algunos puntos capítulo II. |
+| 4      | 15/09/2025 | Alessandro Netto Zevallos Linares | Se completó el capítulo III parte del capítulo IV. |
+| 4.5     | 18/09/2025 | Cantoral Sedamano, Alexander Alberto | Se completaron puntos faltantes de los capítulos. |
+| 6  | 20/09/2025 | Cantoral Sedamano, Alexander Alberto | Se agrega la estructura a completar para el TP. | 
+| 6.5  | 22/09/2025 | Casaverde De La Cruz, Ernesto David | Modificación del capítulo III en base a las recomendaciones del profesor. |
+| 7   | 25/09/2025 | Chirinos Zúñiga, Rodrigo Manuel | Se modificó parte del capítulo II para lograr cumplir con el statement del trabajo y se avanzó el capítulo V. |
+| 7.5  | 28/09/2025 | Fabian Alonso Reyes Trujillano | Se actualizó los diagramas correspondientes al C4 y se avanzó el capítulo V. |
+| 8  | 01/10/2025 | Francisco Juan Hurtado Palomino | Se actualizó parte del informe y se agregaron las imágenes correspondientes.  |
+| 8.5  | 03/10/2025 | Renzo Cesar Silva Morales | Se actualizó algunos puntos y agregué mi entrevista. |
+| 9      | 05/10/2025 | Alessandro Netto Zevallos Linares | Se completó algunos puntos del informe y se actualizó links de algunas imágenes y se avanzó el capítulo V. |
+| 9.5     | 10/10/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó las imágenes faltantes de cada producto digital que tenemos y se completó el capítulo VI. |
+| 10     | 17/10/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó la estructura del informe a entregar para la siguiente entrega. |
+| 10.5      | 05/10/2025 | Alessandro Netto Zevallos Linares | Se completó algunos puntos del informe y se hciieron las preguntas respectivas para las entrevistas de validación. |
+| 11  | 20/10/2025 | Casaverde De La Cruz, Ernesto David | Se completó parte del capítulo VI con la entrevista respectiva. |
+| 11.5  | 25/10/2025 | Fabian Alonso Reyes Trujillano | Se avanzó con algunos puntos del capítulo VI, se actualizaron puntos anteriores y links de imágenes que ya no funcionaban. |
+| 12   | 05/11/2025 | Chirinos Zúñiga, Rodrigo Manuel | Se modificó puntos anteriores del informe con los el feedback del profesor y se agregarón las entrevistas respectivas. |
+| 12.5    | 08/11/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó las imágenes de productos desplegados|
+| 13     | 10/11/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó la estructura del informe a entregar para la última entrega. |
+| 13.5  | 13/11/2025 | Casaverde De La Cruz, Ernesto David | Se actualizó puntos anteriores y se modificó links de algunos productos desplegados.|
+| 14     | 20/11/2025 | Cantoral Sedamano, Alexander Alberto | Se agregó los saltos de líneas correspondientes y se añadió descripciones faltantes.|
+| 14.5   | 25/11/2025 | Chirinos Zúñiga, Rodrigo Manuel | Se modificó puntos anteriores del informe y se actualizó estructura inicial. |
+| 15      | 28/11/2025 | Alessandro Netto Zevallos Linares | Se completó algunos puntos del informe y se actualizó algunos link de imágenes |
+| 15.5   | 02/12/2025 | Francisco Juan Hurtado Palomino | Se completó algunos puntos anteriores y se modificó entrevista anterior. |
+| 16  | 02/12/2025 | Fabian Alonso Reyes Trujillano | Se completó aglunos puntos faltantes. |
 
 <div style="page-break-after: always;"></div>
 
