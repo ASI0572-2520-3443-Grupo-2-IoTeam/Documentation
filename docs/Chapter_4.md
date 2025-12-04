@@ -2937,4 +2937,3 @@ _Tabla de métodos de Plans_
 #### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
 [![Billing-Subscription-Design-Diagram.png](https://i.postimg.cc/d3nBYjJX/Billing-Subscription-Design-Diagram.png)](https://postimg.cc/CnBDCDBH)
-
