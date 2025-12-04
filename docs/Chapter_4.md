@@ -716,6 +716,8 @@ Esta capa concreta las abstracciones definidas en el dominio a través de reposi
 
 [![structurizr-106438-Container-001.png](https://i.postimg.cc/9frXP2zC/structurizr-106438-Container-001.png)](https://postimg.cc/4KRTZrzS)
 
+<div style="page-break-after: always;"></div>
+
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 #### 4.2.1.6.1. Bounded Context Domain Layer Class ### Diagrams. 
 
@@ -1187,6 +1189,9 @@ Esta capa concreta las abstracciones definidas en el dominio a través de reposi
 |Categoría	|Servicio Técnico|
 |Propósito	|Conectar el sistema con sensores IoT para recolectar datos de humedad, luz, temperatura y crecimiento|
 |Interfaz	|ISensorIntegrationService|
+
+
+<div style="page-break-after: always;"></div>
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams. 
 

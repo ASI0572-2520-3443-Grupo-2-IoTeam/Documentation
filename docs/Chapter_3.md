@@ -68,6 +68,9 @@
 | US-048          | Cancelación flexible de suscripciones     | Como usuario, quiero poder cancelar mi suscripción en cualquier momento, para tener control total sobre mis gastos recurrentes.                                                                    | **Escenario 01: Cancelación inmediata con acceso hasta fin de período**<br>- Dado que un usuario decide cancelar su suscripción<br>- Cuando confirma la cancelación en la app<br>- Entonces el acceso premium se mantiene hasta el final del período pagado<br>- Y no se realizan cobros recurrentes adicionales<br><br>**Escenario 02: Confirmación de cancelación**<br>- Dado que un usuario completa el proceso de cancelación<br>- Cuando el sistema procesa la solicitud<br>- Entonces envía comprobante de cancelación por email<br>- Y muestra confirmación en la app con fecha de finalización <br>**Reglas de negocio:**<br>- La cancelación debe poder realizarse sin intervención del soporte técnico.<br>- Tras cancelar, el acceso premium se mantiene hasta el final del período ya pagado.| EPIC 009                   |
 | US-049          | Transparencia en historial de pagos       | Como usuario, quiero consultar mi historial completo de transacciones, para tener control y registro de todos mis pagos y suscripciones.                                                            | **Escenario 01: Consulta de historial financiero**<br>- Dado que un usuario accede a su historial de pagos<br>- Cuando navega por las transacciones<br>- Entonces ve fecha, monto, método de pago y concepto de cada cargo<br>- Y puede filtrar por tipo de transacción (suscripción, compra única, etc.)<br><br>**Escenario 02: Descarga de comprobantes**<br>- Dado que un usuario necesita un comprobante específico<br>- Cuando selecciona descargar recibo de pago<br>- Entonces genera PDF con detalles completos de la transacción<br>- Y el documento incluye información fiscal requerida <br>**Reglas de negocio:**<br>-Todas las transacciones deben registrarse con número único, monto, fecha y método de pago.<br>- El historial debe conservar al menos 12 meses de registros accesibles para el usuario.| EPIC 009                   |
 | US-050          | Recordatorios de renovación               | Como usuario, quiero recibir notificaciones anticipadas sobre renovaciones de suscripción, para gestionar mis finanzas proactivamente.                                                              | **Escenario 01: Alerta de renovación próxima**<br>- Dado que un usuario tiene suscripción activa<br>- Cuando faltan 3 días para la renovación automática<br>- Entonces recibe notificación push y email recordatorio<br>- Y el mensaje incluye monto a cobrar y fecha exacta<br><br>**Escenario 02: Confirmación post-renovación**<br>- Dado que se procesa una renovación de suscripción<br>- Cuando el cobro es exitoso<br>- Entonces el sistema notifica la renovación completada<br>- Y envía comprobante del nuevo período de servicio <br>**Reglas de negocio:**<br>- El sistema debe enviar notificación 3 días antes de la renovación automática.<br>- El recordatorio debe incluir monto, fecha exacta y método de pago configurado.<br>- Tras renovación exitosa, debe emitirse comprobante digital inmediato.| EPIC 009                   |
+
+<div style="page-break-after: always;"></div>
+
 # Historias técnicas
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|---------|-------------|--------------------------|----------------------------|
@@ -86,6 +89,10 @@
 | TS-013 | Generación de reportes descargables | Como desarrollador frontend, quiero permitir que los usuarios descarguen reportes PDF con métricas y diagnósticos de sus plantas. | **Escenario: Reporte disponible**<br>Dado un usuario premium<br>Cuando solicita un reporte<br>Entonces el sistema genera el PDF y responde con un enlace de descarga.<br><br>**Escenario: Usuario básico**<br>Dado un usuario del plan gratuito<br>Cuando intenta generar un reporte<br>Entonces el sistema muestra mensaje de restricción. | EPIC-005 |
 | TS-014 | Gestión de planes de suscripción | Como desarrollador backend, quiero implementar la lógica para registrar, actualizar o cancelar suscripciones de los usuarios. | **Escenario: Alta de suscripción**<br>Dado un usuario nuevo<br>Cuando selecciona un plan premium<br>Entonces el sistema registra la suscripción y habilita funciones avanzadas.<br><br>**Escenario: Cancelación de suscripción**<br>Dado un usuario premium<br>Cuando cancela su plan<br>Entonces el sistema mantiene los beneficios hasta el fin del período pagado. | EPIC-009 |
 | TS-015 | Integración con pasarela de pago | Como desarrollador backend, quiero integrar la API de pagos para procesar cobros automáticos de suscripciones y compras únicas. | **Escenario: Pago exitoso**<br>Dado que el usuario envía datos de pago válidos<br>Cuando la pasarela confirma la transacción<br>Entonces el sistema marca la suscripción como activa y registra el comprobante.<br><br>**Escenario: Error en transacción**<br>Dado un fallo en el procesamiento del pago<br>Cuando la pasarela devuelve error<br>Entonces el sistema registra el intento fallido y notifica al usuario. | EPIC-009 |
+
+
+<div style="page-break-after: always;"></div>
+
 
 ## 3.2. Impact Mapping.
 
@@ -106,6 +113,8 @@ Para el segmento del usuario aficionado se elaboró un Impact Mapping con el obj
 [https://uxpressia.com/w/KPfTT/i/ZTr9f](https://uxpressia.com/w/KPfTT/i/ZTr9f)
 
 [![Luz-Ramos-4.png](https://i.postimg.cc/TPXJykff/Luz-Ramos-4.png)](https://postimg.cc/WdXkCwdH)
+
+<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog.
 |Orden|User Story Id|Título|Descripción|Story Points (1/2/3/5/8)|

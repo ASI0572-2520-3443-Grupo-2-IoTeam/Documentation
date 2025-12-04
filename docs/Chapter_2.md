@@ -239,6 +239,8 @@ Es una maceta inteligente de gama premium que incorpora sensores de humedad, tem
 | **KORU Smart Pot** | Competir en funcionalidad y costo accesible | Destacar monitoreo escalable (no solo decorativo) y alianzas con viveros/agricultores. |
 
 
+<div style="page-break-after: always;"></div>
+
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
@@ -420,6 +422,8 @@ __Analisis De Entrevista Segmento 2:__
 Las entrevistas con Ana, Vasco, María y Natalia reflejan distintos perfiles de usuarios con un interés común: el gusto por las plantas y el deseo de cuidarlas adecuadamente, aunque todos enfrentan dificultades relacionadas con el riego, los olvidos y la falta de información sobre las condiciones ambientales. Ana destaca por ser una usuaria metódica y previsora; cuida entre siete y ocho macetas y busca una herramienta que le permita registrar el progreso de sus plantas, visualizar estadísticas y anticiparse a problemas climáticos. Vasco, en cambio, es un usuario joven, urbano y ambientalista que cuida alrededor de 15 plantas. Aunque tiene buen manejo tecnológico, su problema principal es el exceso o falta de riego, por lo que valora una app visual, sencilla y práctica que ofrezca alertas personalizadas y monitoreo de humedad, prefiriendo pagar una sola vez por el hardware antes que una suscripción mensual.
 María representa un perfil más tradicional, pero muy comprometido con el cuidado de sus plantas. Utiliza calendarios manuales para registrar riegos, aunque reconoce haber perdido algunas por exceso de fertilizante o agua. Muestra gran interés en una aplicación que le recuerde tareas, registre avances y alerte sobre problemas, y estaría dispuesta a pagar una suscripción razonable si la herramienta le ofrece beneficios tangibles y facilidad de uso. Por último, Natalia, una usuaria mayor con amplia experiencia en jardinería, mantiene un enfoque tradicional pero está abierta a la tecnología si le ayuda a mejorar sus hábitos de cuidado. Le atraen especialmente las apps con gráficos, estadísticas y notificaciones visuales, siempre que sean claras y accesibles.
 En conjunto, las entrevistas evidencian que los principales retos en el cuidado de las plantas son la falta de constancia, los errores de riego y la influencia del clima, y que existe una alta disposición a adoptar soluciones tecnológicas siempre que sean simples, visuales y realmente útiles. PlantCare se presenta como una solución ideal al ofrecer un sistema IoT capaz de automatizar recordatorios, monitorear el estado de las plantas y brindar información contextual según el clima, adaptándose a distintos tipos de usuarios: desde los más experimentados y metódicos hasta los más tradicionales o principiantes.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.3. Needfinding.
 

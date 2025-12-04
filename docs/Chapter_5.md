@@ -150,6 +150,10 @@ En esta sección, se presentan los mock-ups de la Landing Page, hechas en la her
 
 [![Landing-Page-Mock-Up.png](https://i.postimg.cc/hvLFV67L/Landing-Page-Mock-Up.png)](https://postimg.cc/zHGPrd7v)
 
+
+<div style="page-break-after: always;"></div>
+
+
 ## 5.4. Applications UX/UI Design.
 
 ### 5.4.1. Applications Wireframes.
@@ -371,6 +375,8 @@ Se pueden visualizar mediante el siguiente link: [https://lucid.app/lucidchart/4
 **User Goal 3:** Como usuario, quiero que mis plantas alcancen una salud óptima con el mínimo esfuerzo posible, con el fin de mantenerlas siempre en las mejores condiciones sin dedicar demasiado tiempo.
 
 [![Application-User-Flow-Diagram-8.png](https://i.postimg.cc/JzQQYLbR/Application-User-Flow-Diagram-8.png)](https://postimg.cc/zyVW34tQ)
+
+<div style="page-break-after: always;"></div>
 
 ## 5.5. Applications Prototyping.
 
