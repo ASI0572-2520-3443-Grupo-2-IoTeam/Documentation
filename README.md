@@ -68,7 +68,7 @@
 | 14.5   | 25/11/2025 | Chirinos Zúñiga, Rodrigo Manuel | Se modificó puntos anteriores del informe y se actualizó estructura inicial. |
 | 15      | 28/11/2025 | Alessandro Netto Zevallos Linares | Se completó algunos puntos del informe y se actualizó algunos link de imágenes |
 | 15.5   | 02/12/2025 | Francisco Juan Hurtado Palomino | Se completó algunos puntos anteriores y se modificó entrevista anterior. |
-| 16  | 02/12/2025 | Fabian Alonso Reyes Trujillano | Se completó aglunos puntos faltantes. |
+| 16  | 02/12/2025 | Fabian Alonso Reyes Trujillano | Se completó algunos puntos faltantes. |
 
 <div style="page-break-after: always;"></div>
 
