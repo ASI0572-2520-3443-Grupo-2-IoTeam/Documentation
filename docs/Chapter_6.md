@@ -1944,7 +1944,7 @@ Los siguientes anexos complementan la documentación del proyecto, proporcionand
 | Producto | Enlace |
 |----------|--------|
 | **Landing Page** | https://plant-care-landing-page-one.vercel.app/ |
-| **Frontend Web App** | https://frontendweb-b47l.onrender.com/ |
+| **Frontend Web App** | https://frontendweb-1raj.onrender.com/ |
 | **Mobile App – Release v1.0.0** | https://github.com/ASI0572-2520-3443-Grupo-2-IoTeam/FrontendMobile/releases/tag/v1.0.0 |
 | **Backend Services (Swagger UI)** | https://plantcare-awcchhb2bfg3hxgf.canadacentral-01.azurewebsites.net/swagger-ui/index.html |
 | **Edge Services** | https://plantcare-edge-service.onrender.com/apidocs/ |
